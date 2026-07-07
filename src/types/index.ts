@@ -1,5 +1,5 @@
 // ===== 美食街标识 =====
-export type StreetId = 'guangbalu' | 'bayilu' | 'donghuxincun' | 'luoshibeilu' | 'weilaicheng';
+export type StreetId = 'guangbalu' | 'bayilu' | 'donghuxincun' | 'luoshibeilu' | 'weilaicheng' | 'xiaonei';
 
 // ===== 菜系分类 =====
 export type CuisineCategory =
@@ -18,6 +18,7 @@ export type CuisineCategory =
   | '湖北菜'
   | '东北菜'
   | '西北菜'
+  | '快餐'
   | '其他';
 
 // ===== 美食街信息 =====

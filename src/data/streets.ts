@@ -36,4 +36,11 @@ export const streets: Street[] = [
     centerLatLng: [30.525, 114.356],
     color: '#9B59B6',
   },
+  {
+    id: 'xiaonei',
+    name: '校内',
+    description: '武汉大学校内的食堂和餐饮店铺，分布在枫园、梅园、桂园等各个生活区',
+    centerLatLng: [30.537, 114.368],
+    color: '#1ABC9C',
+  },
 ];

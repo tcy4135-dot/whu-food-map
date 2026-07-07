@@ -7,7 +7,7 @@ import {
   useMap,
 } from 'react-leaflet';
 import L from 'leaflet';
-import type { Restaurant } from '../types';
+import type { Restaurant, StreetId } from '../types';
 import { streets } from '../data/streets';
 import 'leaflet/dist/leaflet.css';
 
@@ -25,6 +25,7 @@ function createColoredIcon(color: string): L.DivIcon {
         transform: rotate(-45deg);
         box-shadow: 0 2px 6px rgba(0,0,0,0.3);
         cursor: pointer;
+        transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
       "></div>
     `,
     iconSize: [32, 32],
@@ -72,13 +73,17 @@ function ResetViewControl() {
         <button
           onClick={handleReset}
           style={{
-            padding: '6px 12px',
+            padding: '8px 14px',
             fontSize: '14px',
             cursor: 'pointer',
             border: 'none',
             background: '#fff',
-            borderRadius: '4px',
-            boxShadow: '0 1px 4px rgba(0,0,0,0.2)',
+            borderRadius: '8px',
+            boxShadow: '0 2px 8px rgba(180, 140, 150, 0.15)',
+            fontFamily: 'inherit',
+            color: '#e8708b',
+            fontWeight: 500,
+            transition: 'all 0.2s',
           }}
           title="重置视野"
         >
@@ -92,13 +97,20 @@ function ResetViewControl() {
 // ===== 主组件 Props =====
 interface MapViewProps {
   restaurants: Restaurant[];
+  selectedStreet: StreetId | 'all';
   activeRestaurantId: string | null;
   onMarkerClick: (id: string) => void;
   onPopupClose: () => void;
 }
 
 // ===== 地图主组件 =====
-function MapView({ restaurants, activeRestaurantId, onMarkerClick, onPopupClose }: MapViewProps) {
+function MapView({
+  restaurants,
+  selectedStreet,
+  activeRestaurantId,
+  onMarkerClick,
+  onPopupClose,
+}: MapViewProps) {
   const activeRestaurant = restaurants.find((r) => r.id === activeRestaurantId) ?? null;
 
   return (
@@ -114,59 +126,65 @@ function MapView({ restaurants, activeRestaurantId, onMarkerClick, onPopupClose 
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      {/* 店铺标记 */}
-      {restaurants.map((restaurant) => (
-        <Marker
-          key={restaurant.id}
-          position={restaurant.latLng}
-          icon={getIcon(restaurant.streetId)}
-          eventHandlers={{
-            click: () => onMarkerClick(restaurant.id),
-          }}
-        >
-          <Popup
+      {/* 店铺标记 — 根据筛选调整透明度 */}
+      {restaurants.map((restaurant) => {
+        const isDimmed =
+          selectedStreet !== 'all' && restaurant.streetId !== selectedStreet;
+
+        return (
+          <Marker
+            key={restaurant.id}
+            position={restaurant.latLng}
+            icon={getIcon(restaurant.streetId)}
+            opacity={isDimmed ? 0.3 : 1}
             eventHandlers={{
-              remove: onPopupClose,
+              click: () => onMarkerClick(restaurant.id),
             }}
           >
-            <div style={{ minWidth: '200px', fontFamily: 'inherit' }}>
-              <h3 style={{ margin: '0 0 6px', fontSize: '16px' }}>
-                {restaurant.name}
-              </h3>
-              <div style={{ fontSize: '13px', color: '#666', marginBottom: '4px' }}>
-                📍 {streets.find((s) => s.id === restaurant.streetId)?.name} · {restaurant.cuisine}
-              </div>
-              <div style={{ fontSize: '13px', color: '#666', marginBottom: '4px' }}>
-                🍽️ 招牌：{restaurant.signatureDish}
-              </div>
-              <div style={{ fontSize: '13px', color: '#666', marginBottom: '8px' }}>
-                💰 人均 ¥{restaurant.avgPrice}
-              </div>
-              <p style={{ margin: '0', fontSize: '13px', color: '#444', lineHeight: '1.5' }}>
-                {restaurant.description}
-              </p>
-              {restaurant.tags && restaurant.tags.length > 0 && (
-                <div style={{ marginTop: '8px', display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
-                  {restaurant.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      style={{
-                        fontSize: '11px',
-                        padding: '2px 6px',
-                        background: '#f0f0f0',
-                        borderRadius: '4px',
-                        color: '#666',
-                      }}
-                    >
-                      {tag}
-                    </span>
-                  ))}
+            <Popup
+              eventHandlers={{
+                remove: onPopupClose,
+              }}
+            >
+              <div style={{ minWidth: '210px', fontFamily: 'inherit' }}>
+                <h3 style={{ margin: '0 0 6px', fontSize: '16px', color: '#3d2c33' }}>
+                  {restaurant.name}
+                </h3>
+                <div style={{ fontSize: '13px', color: '#8c6e7a', marginBottom: '4px' }}>
+                  📍 {streets.find((s) => s.id === restaurant.streetId)?.name} · {restaurant.cuisine}
                 </div>
-              )}
-            </div>
-          </Popup>
-        </Marker>
-      ))}
+                <div style={{ fontSize: '13px', color: '#8c6e7a', marginBottom: '4px' }}>
+                  🍽️ 招牌：{restaurant.signatureDish}
+                </div>
+                <div style={{ fontSize: '13px', color: '#e8708b', fontWeight: 600, marginBottom: '8px' }}>
+                  💰 人均 ¥{restaurant.avgPrice}
+                </div>
+                <p style={{ margin: '0', fontSize: '13px', color: '#5c4a52', lineHeight: '1.6' }}>
+                  {restaurant.description}
+                </p>
+                {restaurant.tags && restaurant.tags.length > 0 && (
+                  <div style={{ marginTop: '8px', display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                    {restaurant.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        style={{
+                          fontSize: '11px',
+                          padding: '2px 8px',
+                          background: '#fff5f7',
+                          borderRadius: '10px',
+                          color: '#c97a8e',
+                        }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </Popup>
+          </Marker>
+        );
+      })}
 
       {/* 飞行定位 + 重置按钮 */}
       <FlyToRestaurant restaurant={activeRestaurant} />

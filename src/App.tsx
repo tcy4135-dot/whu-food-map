@@ -10,12 +10,11 @@ function App() {
   const [activeRestaurantId, setActiveRestaurantId] = useState<string | null>(null);
   const [selectedStreet, setSelectedStreet] = useState<StreetId | 'all'>('all');
 
+  // 地图显示全部店铺（通过透明度区分选中/非选中），列表同样全部展示
   const filteredRestaurants =
     selectedStreet === 'all'
       ? restaurants
       : restaurants.filter((r) => r.streetId === selectedStreet);
-
-  const activeRestaurant = restaurants.find((r) => r.id === activeRestaurantId) ?? null;
 
   const handleRestaurantClick = useCallback((id: string) => {
     setActiveRestaurantId(id);
@@ -51,7 +50,8 @@ function App() {
       <div className="app-body">
         <div className="map-wrapper">
           <MapView
-            restaurants={filteredRestaurants}
+            restaurants={restaurants}
+            selectedStreet={selectedStreet}
             activeRestaurantId={activeRestaurantId}
             onMarkerClick={handleMarkerClick}
             onPopupClose={handlePopupClose}
@@ -60,6 +60,7 @@ function App() {
         <div className="list-wrapper">
           <RestaurantList
             restaurants={filteredRestaurants}
+            allRestaurants={restaurants}
             streets={streetCounts}
             activeRestaurantId={activeRestaurantId}
             selectedStreet={selectedStreet}

@@ -1,9 +1,34 @@
+/* ===== 樱花粉主题色 ===== */
+:root {
+  --pink-50: #fff5f7;
+  --pink-100: #ffe4ea;
+  --pink-200: #fecdd7;
+  --pink-300: #fda4ba;
+  --pink-400: #fb7a9a;
+  --pink-500: #f85a7a;
+  --pink-600: #e8456a;
+  --bg-primary: #fffafb;
+  --bg-secondary: #fff5f7;
+  --text-primary: #3d2c33;
+  --text-secondary: #8c6e7a;
+  --text-muted: #b8a0aa;
+  --border-color: #f0e0e5;
+  --shadow-sm: 0 2px 8px rgba(180, 140, 150, 0.08);
+  --shadow-md: 0 4px 16px rgba(180, 140, 150, 0.12);
+  --shadow-lg: 0 8px 32px rgba(180, 140, 150, 0.16);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* ===== 整体布局 ===== */
 .app-container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
+  background: var(--bg-primary);
 }
 
 /* ===== 顶部导航栏 ===== */
@@ -11,30 +36,39 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
-  height: 56px;
-  background: #fff;
-  border-bottom: 1px solid #e8e8e8;
+  padding: 0 28px;
+  height: 64px;
+  background: linear-gradient(135deg, #fff5f7 0%, #ffe4ea 50%, #fff0f3 100%);
+  border-bottom: 1px solid var(--border-color);
   flex-shrink: 0;
   z-index: 10;
 }
 
 .app-header .logo {
-  font-size: 20px;
-  font-weight: 700;
-  color: #1a1a1a;
+  font-family: 'Ma Shan Zheng', 'ZCOOL XiaoWei', '华文行楷', 'STXingkai', '方正楷体', 'KaiTi', serif;
+  font-size: 26px;
+  font-weight: 400;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  background: linear-gradient(135deg, #e8708b 0%, #f8a5c2 40%, #e8456a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(1px 1px 2px rgba(232, 112, 139, 0.25));
 }
 
 .app-header .logo .icon {
-  font-size: 24px;
+  -webkit-text-fill-color: initial;
+  font-size: 28px;
+  filter: none;
 }
 
 .street-summary {
   font-size: 13px;
-  color: #888;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 /* ===== 主体区域 ===== */
@@ -48,7 +82,7 @@
 .map-wrapper {
   flex: 0 0 55%;
   position: relative;
-  background: #e8e8e8;
+  background: #fef5f7;
 }
 
 /* ===== 列表区域 ===== */
@@ -56,8 +90,8 @@
   flex: 0 0 45%;
   display: flex;
   flex-direction: column;
-  background: #fafafa;
-  border-left: 1px solid #e8e8e8;
+  background: var(--bg-primary);
+  border-left: 1px solid var(--border-color);
   overflow: hidden;
 }
 
@@ -74,6 +108,10 @@
   .list-wrapper {
     flex: 1;
     border-left: none;
-    border-top: 1px solid #e8e8e8;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .app-header .logo {
+    font-size: 22px;
   }
 }

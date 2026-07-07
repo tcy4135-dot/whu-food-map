@@ -7,6 +7,7 @@ interface StreetWithCount extends Street {
 
 interface RestaurantListProps {
   restaurants: Restaurant[];
+  allRestaurants: Restaurant[];
   streets: StreetWithCount[];
   activeRestaurantId: string | null;
   selectedStreet: StreetId | 'all';
@@ -15,13 +16,16 @@ interface RestaurantListProps {
 }
 
 function RestaurantList({
-  restaurants,
+  allRestaurants,
   streets,
   activeRestaurantId,
   selectedStreet,
   onSelectStreet,
   onRestaurantClick,
 }: RestaurantListProps) {
+  // 展示全部店铺，未选中街道的卡片变暗
+  const displayRestaurants = allRestaurants;
+
   return (
     <>
       {/* 街道筛选 Tab */}
@@ -29,10 +33,10 @@ function RestaurantList({
         style={{
           display: 'flex',
           flexWrap: 'wrap',
-          gap: '6px',
-          padding: '12px 16px',
-          background: '#fff',
-          borderBottom: '1px solid #e8e8e8',
+          gap: '8px',
+          padding: '14px 16px',
+          background: 'linear-gradient(180deg, #ffffff 0%, #fffafb 100%)',
+          borderBottom: '1px solid #f0e0e5',
           flexShrink: 0,
         }}
       >
@@ -40,18 +44,24 @@ function RestaurantList({
         <button
           onClick={() => onSelectStreet('all')}
           style={{
-            padding: '6px 14px',
+            padding: '7px 16px',
             fontSize: '13px',
-            border: 'none',
+            border: selectedStreet === 'all' ? '2px solid #e8708b' : '2px solid transparent',
             borderRadius: '20px',
             cursor: 'pointer',
             fontWeight: selectedStreet === 'all' ? 600 : 400,
-            background: selectedStreet === 'all' ? '#333' : '#f0f0f0',
-            color: selectedStreet === 'all' ? '#fff' : '#555',
-            transition: 'all 0.2s',
+            background: selectedStreet === 'all'
+              ? 'linear-gradient(135deg, #fda4ba, #f85a7a)'
+              : '#f8f0f2',
+            color: selectedStreet === 'all' ? '#fff' : '#8c6e7a',
+            boxShadow: selectedStreet === 'all'
+              ? '0 2px 8px rgba(248, 90, 122, 0.3)'
+              : 'none',
+            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+            whiteSpace: 'nowrap',
           }}
         >
-          全部 ({restaurants.length})
+          🌸 全部 ({allRestaurants.length})
         </button>
 
         {/* 各街道按钮 */}
@@ -60,15 +70,23 @@ function RestaurantList({
             key={street.id}
             onClick={() => onSelectStreet(street.id)}
             style={{
-              padding: '6px 14px',
+              padding: '7px 16px',
               fontSize: '13px',
-              border: 'none',
+              border: selectedStreet === street.id
+                ? `2px solid ${street.color}`
+                : '2px solid transparent',
               borderRadius: '20px',
               cursor: 'pointer',
               fontWeight: selectedStreet === street.id ? 600 : 400,
-              background: selectedStreet === street.id ? street.color : '#f0f0f0',
-              color: selectedStreet === street.id ? '#fff' : '#555',
-              transition: 'all 0.2s',
+              background: selectedStreet === street.id
+                ? street.color
+                : '#f8f0f2',
+              color: selectedStreet === street.id ? '#fff' : '#8c6e7a',
+              boxShadow: selectedStreet === street.id
+                ? `0 2px 8px ${street.color}40`
+                : 'none',
+              transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+              whiteSpace: 'nowrap',
             }}
           >
             {street.name} ({street.count})
@@ -81,56 +99,62 @@ function RestaurantList({
         style={{
           flex: 1,
           overflowY: 'auto',
-          padding: '16px',
+          padding: '14px 16px',
         }}
       >
-        {restaurants.length === 0 ? (
+        {displayRestaurants.length === 0 ? (
           <div
             style={{
               textAlign: 'center',
-              color: '#999',
+              color: '#c9a8b2',
               padding: '60px 20px',
               fontSize: '15px',
             }}
           >
-            🍽️ 该街道暂无推荐店铺
+            🍽️ 暂无推荐店铺
           </div>
         ) : (
-          restaurants.map((restaurant) => {
+          displayRestaurants.map((restaurant) => {
             const street = streets.find((s) => s.id === restaurant.streetId);
             const isActive = restaurant.id === activeRestaurantId;
+            const isDimmed =
+              selectedStreet !== 'all' && restaurant.streetId !== selectedStreet;
 
             return (
               <div
                 key={restaurant.id}
                 onClick={() => onRestaurantClick(restaurant.id)}
                 style={{
-                  padding: '16px',
+                  padding: '16px 16px 16px 22px',
                   marginBottom: '10px',
                   background: isActive ? '#fff' : '#fff',
-                  borderRadius: '12px',
+                  borderRadius: '14px',
                   border: isActive
-                    ? `2px solid ${street?.color ?? '#333'}`
-                    : '1px solid #eee',
+                    ? `2px solid ${street?.color ?? '#e8708b'}`
+                    : '1px solid #f0e0e5',
                   boxShadow: isActive
-                    ? '0 4px 16px rgba(0,0,0,0.1)'
-                    : '0 1px 4px rgba(0,0,0,0.04)',
+                    ? '0 4px 20px rgba(180, 140, 150, 0.15)'
+                    : '0 1px 4px rgba(180, 140, 150, 0.05)',
                   cursor: 'pointer',
-                  transition: 'all 0.2s',
+                  transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                   position: 'relative',
+                  opacity: isDimmed ? 0.35 : 1,
+                  transform: isActive ? 'scale(1.02)' : 'scale(1)',
                 }}
                 onMouseEnter={(e) => {
                   if (!isActive) {
-                    e.currentTarget.style.borderColor = '#ccc';
+                    e.currentTarget.style.borderColor = '#f0c8d4';
                     e.currentTarget.style.boxShadow =
-                      '0 2px 8px rgba(0,0,0,0.08)';
+                      '0 4px 16px rgba(180, 140, 150, 0.1)';
+                    e.currentTarget.style.transform = 'scale(1.01)';
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (!isActive) {
-                    e.currentTarget.style.borderColor = '#eee';
+                    e.currentTarget.style.borderColor = '#f0e0e5';
                     e.currentTarget.style.boxShadow =
-                      '0 1px 4px rgba(0,0,0,0.04)';
+                      '0 1px 4px rgba(180, 140, 150, 0.05)';
+                    e.currentTarget.style.transform = 'scale(1)';
                   }
                 }}
               >
@@ -139,11 +163,14 @@ function RestaurantList({
                   style={{
                     position: 'absolute',
                     left: 0,
-                    top: 12,
-                    bottom: 12,
+                    top: 14,
+                    bottom: 14,
                     width: '4px',
-                    background: street?.color ?? '#ccc',
-                    borderRadius: '0 2px 2px 0',
+                    background: isDimmed
+                      ? '#e0d0d5'
+                      : street?.color ?? '#e8708b',
+                    borderRadius: '0 3px 3px 0',
+                    transition: 'background 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                   }}
                 />
 
@@ -154,7 +181,6 @@ function RestaurantList({
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     marginBottom: '6px',
-                    paddingLeft: '6px',
                   }}
                 >
                   <h3
@@ -162,16 +188,18 @@ function RestaurantList({
                       margin: 0,
                       fontSize: '16px',
                       fontWeight: 600,
-                      color: '#1a1a1a',
+                      color: isDimmed ? '#c4b0b8' : '#3d2c33',
+                      transition: 'color 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                     }}
                   >
                     {restaurant.name}
                   </h3>
                   <span
                     style={{
-                      fontSize: '16px',
+                      fontSize: '15px',
                       fontWeight: 700,
-                      color: '#e74c3c',
+                      color: isDimmed ? '#d4c0c8' : '#e8708b',
+                      transition: 'color 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                     }}
                   >
                     ¥{restaurant.avgPrice}
@@ -182,9 +210,9 @@ function RestaurantList({
                 <div
                   style={{
                     fontSize: '12px',
-                    color: '#888',
+                    color: isDimmed ? '#cebec5' : '#b8a0aa',
                     marginBottom: '6px',
-                    paddingLeft: '6px',
+                    transition: 'color 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                   }}
                 >
                   📍 {street?.name ?? ''} · {restaurant.cuisine}
@@ -194,9 +222,9 @@ function RestaurantList({
                 <div
                   style={{
                     fontSize: '13px',
-                    color: '#555',
+                    color: isDimmed ? '#c8b8bf' : '#8c6e7a',
                     marginBottom: '8px',
-                    paddingLeft: '6px',
+                    transition: 'color 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                   }}
                 >
                   🍽️ 招牌：{restaurant.signatureDish}
@@ -207,9 +235,9 @@ function RestaurantList({
                   style={{
                     margin: '0 0 8px',
                     fontSize: '13px',
-                    color: '#666',
-                    lineHeight: '1.5',
-                    paddingLeft: '6px',
+                    color: isDimmed ? '#c8b8bf' : '#6b565e',
+                    lineHeight: '1.6',
+                    transition: 'color 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                   }}
                 >
                   {restaurant.description}
@@ -222,7 +250,6 @@ function RestaurantList({
                       display: 'flex',
                       gap: '4px',
                       flexWrap: 'wrap',
-                      paddingLeft: '6px',
                     }}
                   >
                     {restaurant.tags.map((tag) => (
@@ -230,10 +257,11 @@ function RestaurantList({
                         key={tag}
                         style={{
                           fontSize: '11px',
-                          padding: '2px 8px',
-                          background: '#f5f5f5',
-                          borderRadius: '10px',
-                          color: '#888',
+                          padding: '3px 10px',
+                          background: isDimmed ? '#f3eeef' : '#fff0f3',
+                          borderRadius: '12px',
+                          color: isDimmed ? '#c9bcc2' : '#d48a9c',
+                          transition: 'all 0.35s cubic-bezier(0.4, 0, 0.2, 1)',
                         }}
                       >
                         {tag}
