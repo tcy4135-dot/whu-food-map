@@ -11,40 +11,41 @@ import type { Restaurant, StreetId } from '../types';
 import { streets } from '../data/streets';
 import 'leaflet/dist/leaflet.css';
 
-// ===== 自定义 Marker 图标（按街道颜色） =====
-function createColoredIcon(color: string): L.DivIcon {
+// ===== 毛玻璃发光的圆形标记 (12px) =====
+function createGlowIcon(color: string): L.DivIcon {
   return L.divIcon({
     className: 'custom-marker',
     html: `
       <div style="
-        width: 32px;
-        height: 32px;
+        width: 12px;
+        height: 12px;
         background: ${color};
-        border: 3px solid #fff;
-        border-radius: 50% 50% 50% 0;
-        transform: rotate(-45deg);
-        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        border: 2px solid rgba(255,255,255,0.85);
+        border-radius: 50%;
+        box-shadow:
+          0 0 0 4px ${color}33,
+          0 0 0 8px ${color}18,
+          0 2px 8px rgba(45,42,36,0.15);
         cursor: pointer;
         transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
       "></div>
     `,
-    iconSize: [32, 32],
-    iconAnchor: [16, 32],
-    popupAnchor: [0, -36],
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    popupAnchor: [0, -8],
   });
 }
 
-// 预生成每个街道的图标
 const streetIcons: Record<string, L.DivIcon> = {};
 streets.forEach((s) => {
-  streetIcons[s.id] = createColoredIcon(s.color);
+  streetIcons[s.id] = createGlowIcon(s.color);
 });
 
 function getIcon(streetId: string): L.DivIcon {
   return streetIcons[streetId] ?? streetIcons['guangbalu'];
 }
 
-// ===== 地图飞行动画子组件 =====
+// ===== 飞行动画 =====
 function FlyToRestaurant({ restaurant }: { restaurant: Restaurant | null }) {
   const map = useMap();
   const prevIdRef = useRef<string | null>(null);
@@ -59,42 +60,83 @@ function FlyToRestaurant({ restaurant }: { restaurant: Restaurant | null }) {
   return null;
 }
 
-// ===== 重置地图视野按钮 =====
+// ===== 重置视野 =====
 function ResetViewControl() {
   const map = useMap();
 
-  const handleReset = () => {
-    map.flyTo([30.535, 114.360], 14, { duration: 0.8 });
-  };
-
   return (
-    <div className="leaflet-top leaflet-right" style={{ marginTop: '60px' }}>
+    <div className="leaflet-top leaflet-right" style={{ marginTop: '64px' }}>
       <div className="leaflet-control leaflet-bar">
         <button
-          onClick={handleReset}
+          onClick={() => map.flyTo([30.535, 114.360], 14, { duration: 0.8 })}
           style={{
             padding: '8px 14px',
-            fontSize: '14px',
+            fontSize: '13px',
             cursor: 'pointer',
-            border: 'none',
-            background: '#fff',
-            borderRadius: '8px',
-            boxShadow: '0 2px 8px rgba(180, 140, 150, 0.15)',
+            border: '1px solid var(--border-light)',
+            background: '#FFFFFF',
+            borderRadius: '10px',
+            boxShadow: '0 1px 4px rgba(45,42,36,0.06)',
             fontFamily: 'inherit',
-            color: '#e8708b',
+            color: '#8B8578',
             fontWeight: 500,
-            transition: 'all 0.2s',
+            transition: 'all 0.2s ease-out',
           }}
           title="重置视野"
         >
-          🏠 全景
+          回全景
         </button>
       </div>
     </div>
   );
 }
 
-// ===== 主组件 Props =====
+// ===== Popup 样式 =====
+const S = {
+  container: {
+    minWidth: '220px',
+    fontFamily: "'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+  } as React.CSSProperties,
+  title: {
+    margin: '0 0 6px',
+    fontSize: '15px',
+    fontWeight: 600,
+    color: '#2D2A24',
+    letterSpacing: '0.01em',
+  } as React.CSSProperties,
+  meta: {
+    fontSize: '12px',
+    color: '#8B8578',
+    marginBottom: '3px',
+  } as React.CSSProperties,
+  price: {
+    fontSize: '13px',
+    color: '#CBA48B',
+    fontWeight: 600,
+    marginBottom: '8px',
+  } as React.CSSProperties,
+  desc: {
+    margin: '0',
+    fontSize: '13px',
+    color: '#6B6560',
+    lineHeight: '1.6',
+  } as React.CSSProperties,
+  tagsWrap: {
+    marginTop: '8px',
+    display: 'flex',
+    gap: '6px',
+    flexWrap: 'wrap',
+  } as React.CSSProperties,
+  tag: {
+    fontSize: '10px',
+    padding: '3px 10px',
+    background: '#F5F2ED',
+    borderRadius: '8px',
+    color: '#8B8578',
+  } as React.CSSProperties,
+};
+
+// ===== Props =====
 interface MapViewProps {
   restaurants: Restaurant[];
   selectedStreet: StreetId | 'all';
@@ -103,7 +145,7 @@ interface MapViewProps {
   onPopupClose: () => void;
 }
 
-// ===== 地图主组件 =====
+// ===== 主组件 =====
 function MapView({
   restaurants,
   selectedStreet,
@@ -120,13 +162,11 @@ function MapView({
       scrollWheelZoom={true}
       style={{ width: '100%', height: '100%' }}
     >
-      {/* 底图 */}
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      {/* 店铺标记 — 根据筛选调整透明度 */}
       {restaurants.map((restaurant) => {
         const isDimmed =
           selectedStreet !== 'all' && restaurant.streetId !== selectedStreet;
@@ -136,47 +176,24 @@ function MapView({
             key={restaurant.id}
             position={restaurant.latLng}
             icon={getIcon(restaurant.streetId)}
-            opacity={isDimmed ? 0.3 : 1}
-            eventHandlers={{
-              click: () => onMarkerClick(restaurant.id),
-            }}
+            opacity={isDimmed ? 0.25 : 1}
+            eventHandlers={{ click: () => onMarkerClick(restaurant.id) }}
           >
-            <Popup
-              eventHandlers={{
-                remove: onPopupClose,
-              }}
-            >
-              <div style={{ minWidth: '210px', fontFamily: 'inherit' }}>
-                <h3 style={{ margin: '0 0 6px', fontSize: '16px', color: '#3d2c33' }}>
-                  {restaurant.name}
-                </h3>
-                <div style={{ fontSize: '13px', color: '#8c6e7a', marginBottom: '4px' }}>
-                  📍 {streets.find((s) => s.id === restaurant.streetId)?.name} · {restaurant.cuisine}
+            <Popup eventHandlers={{ remove: onPopupClose }}>
+              <div style={S.container}>
+                <h3 style={S.title}>{restaurant.name}</h3>
+                <div style={S.meta}>
+                  {streets.find((s) => s.id === restaurant.streetId)?.name} · {restaurant.cuisine}
                 </div>
-                <div style={{ fontSize: '13px', color: '#8c6e7a', marginBottom: '4px' }}>
-                  🍽️ 招牌：{restaurant.signatureDish}
+                <div style={S.meta}>🍽️ 招牌：{restaurant.signatureDish}</div>
+                <div style={S.price}>
+                  💰 {restaurant.avgPrice > 0 ? `人均 ¥${restaurant.avgPrice}` : '人均 暂无'}
                 </div>
-                <div style={{ fontSize: '13px', color: '#e8708b', fontWeight: 600, marginBottom: '8px' }}>
-                  💰 人均 ¥{restaurant.avgPrice}
-                </div>
-                <p style={{ margin: '0', fontSize: '13px', color: '#5c4a52', lineHeight: '1.6' }}>
-                  {restaurant.description}
-                </p>
+                <p style={S.desc}>{restaurant.description}</p>
                 {restaurant.tags && restaurant.tags.length > 0 && (
-                  <div style={{ marginTop: '8px', display: 'flex', gap: '4px', flexWrap: 'wrap' }}>
+                  <div style={S.tagsWrap}>
                     {restaurant.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        style={{
-                          fontSize: '11px',
-                          padding: '2px 8px',
-                          background: '#fff5f7',
-                          borderRadius: '10px',
-                          color: '#c97a8e',
-                        }}
-                      >
-                        {tag}
-                      </span>
+                      <span key={tag} style={S.tag}>{tag}</span>
                     ))}
                   </div>
                 )}
@@ -186,7 +203,6 @@ function MapView({
         );
       })}
 
-      {/* 飞行定位 + 重置按钮 */}
       <FlyToRestaurant restaurant={activeRestaurant} />
       <ResetViewControl />
     </MapContainer>

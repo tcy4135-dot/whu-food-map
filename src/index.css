@@ -1,23 +1,55 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* ===== 莫兰迪设计系统 — 美食发现平台 ===== */
+:root {
+  --bg-page: #F7F4EF;
+  --bg-card: #FFFFFF;
+  --bg-header: #F7F4EF;
+
+  --text-primary: #2D2A24;
+  --text-secondary: #6B6560;
+  --text-tertiary: #8B8578;
+  --text-muted: #B5AFA0;
+
+  --accent: #8BA888;
+  --accent-soft: #E8D1D1;
+  --accent-price: #CBA48B;
+
+  --border-light: #EBE7E0;
+  --border-medium: #DDD8CF;
+
+  --shadow-xs: 0 1px 2px rgba(45,42,36,0.03);
+  --shadow-sm: 0 1px 4px rgba(45,42,36,0.04);
+  --shadow-md: 0 2px 12px rgba(45,42,36,0.06);
+  --shadow-lg: 0 4px 20px rgba(45,42,36,0.08);
+  --shadow-card-hover: 0 6px 24px rgba(45,42,36,0.10);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-html, body, #root {
-  height: 100%;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
-    'Microsoft YaHei', 'Helvetica Neue', sans-serif;
-  background: #f5f5f5;
-  color: #333;
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Leaflet 容器必须显式设定高度 */
-.leaflet-container {
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+body, #root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: var(--bg-page);
+  line-height: 1.5;
 }
+
+.leaflet-container { width: 100%; height: 100%; z-index: 1; }
+
+/* 隐藏滚动条但保持可滚动 */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
