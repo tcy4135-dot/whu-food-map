@@ -1,0 +1,79 @@
+/* ===== 整体布局 ===== */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ===== 顶部导航栏 ===== */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.app-header .logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-header .logo .icon {
+  font-size: 24px;
+}
+
+.street-summary {
+  font-size: 13px;
+  color: #888;
+}
+
+/* ===== 主体区域 ===== */
+.app-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ===== 地图区域 ===== */
+.map-wrapper {
+  flex: 0 0 55%;
+  position: relative;
+  background: #e8e8e8;
+}
+
+/* ===== 列表区域 ===== */
+.list-wrapper {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  border-left: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+
+/* ===== 响应式布局 ===== */
+@media (max-width: 768px) {
+  .app-body {
+    flex-direction: column;
+  }
+
+  .map-wrapper {
+    flex: 0 0 40vh;
+  }
+
+  .list-wrapper {
+    flex: 1;
+    border-left: none;
+    border-top: 1px solid #e8e8e8;
+  }
+}
