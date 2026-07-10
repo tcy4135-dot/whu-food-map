@@ -1,13 +1,5 @@
 // ===== 美食街标识 =====
-export type StreetId =
-  | 'wenli'       // 文理学部（枫园/梅园/湖滨/桂园）
-  | 'gongxue'     // 工学部
-  | 'xinxi'       // 信息学部（南门周边）
-  | 'guangba'     // 广八路
-  | 'bayi'        // 八一路
-  | 'donghu'      // 东湖新村
-  | 'luoshi'      // 珞狮北路
-  | 'weilai';     // 未来城夜市
+export type StreetId = 'guangbalu' | 'bayilu' | 'donghuxincun' | 'luoshibeilu' | 'weilaicheng' | 'xiaonei';
 
 // ===== 菜系分类 =====
 export type CuisineCategory =

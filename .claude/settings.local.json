@@ -17,7 +17,10 @@
       "Bash(git push *)",
       "Bash(node fetchAllFoodData.cjs)",
       "Bash(node mergeFoodData.cjs)",
-      "Bash(node -e *)"
+      "Bash(node -e *)",
+      "Bash(node reclassifyCampus.cjs)",
+      "Bash(git checkout *)",
+      "Bash(node fetchXinxiFood.cjs)"
     ]
   }
 }

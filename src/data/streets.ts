@@ -1,46 +1,66 @@
 import type { Street } from '../types';
 
 export const streets: Street[] = [
+  // ============================================================
+  // 校内学部
+  // ============================================================
   {
-    id: 'guangbalu',
+    id: 'wenli',
+    name: '文理学部',
+    description: '包含枫园、梅园、湖滨、桂园四个生活圈，是武大主校区核心区域',
+    centerLatLng: [30.537, 114.366],
+    color: '#A8C8A0',
+  },
+  {
+    id: 'gongxue',
+    name: '工学部',
+    description: '工学部各食堂及东湖南路沿线',
+    centerLatLng: [30.541, 114.360],
+    color: '#E8A87C',
+  },
+  {
+    id: 'xinxi',
+    name: '信息学部',
+    description: '信息学部及南门周边',
+    centerLatLng: [30.530, 114.357],
+    color: '#D4A0D4',
+  },
+  // ============================================================
+  // 校外美食街
+  // ============================================================
+  {
+    id: 'guangba',
     name: '广八路',
-    description: '武大南门外的美食聚集地，烟火气十足，是学生日常觅食的后食堂',
+    description: '广八路沿线美食街，烟火气十足',
     centerLatLng: [30.531, 114.358],
-    color: '#CBA48B',
+    color: '#F5C6A0',
   },
   {
-    id: 'bayilu',
+    id: 'bayi',
     name: '八一路',
-    description: '武大正门东侧沿线，从快餐小吃到正餐聚会一应俱全',
+    description: '八一路沿线美食，从快餐到正餐应有尽有',
     centerLatLng: [30.537, 114.365],
-    color: '#A4B0BC',
+    color: '#A8D8B8',
   },
   {
-    id: 'donghuxincun',
+    id: 'donghu',
     name: '东湖新村',
-    description: '紧邻东湖的静谧美食角落，以湖北本地菜和湖鲜为特色',
+    description: '东湖新村区域，隐藏不少本地美食',
     centerLatLng: [30.546, 114.370],
-    color: '#9CB5A3',
+    color: '#B8C8E8',
   },
   {
-    id: 'luoshibeilu',
+    id: 'luoshi',
     name: '珞狮北路',
-    description: '武大西门延伸的美食街，川湘风味浓厚，价格亲民',
+    description: '珞狮北路沿线，川湘风味浓厚',
     centerLatLng: [30.539, 114.351],
-    color: '#C0A882',
+    color: '#E8C8A0',
   },
   {
-    id: 'weilaicheng',
+    id: 'weilai',
     name: '未来城夜市',
-    description: '武大南侧的未来城商圈夜市，夜幕降临后烟火升腾，营业到凌晨',
+    description: '未来城夜市区域，营业到凌晨',
     centerLatLng: [30.525, 114.356],
-    color: '#AC9BB2',
-  },
-  {
-    id: 'xiaonei',
-    name: '校内',
-    description: '武汉大学校内的食堂和餐饮店铺，分布在枫园、梅园等各个生活区',
-    centerLatLng: [30.537, 114.368],
-    color: '#9AADA5',
+    color: '#D4B8A0',
   },
 ];

@@ -5,9 +5,9 @@ export const restaurants: Restaurant[] = [
   // 广八路 (2家)
   // ============================================================
   {
-    id: 'guangba-020',
+    id: 'guangbalu-020',
     name: '阿友不大盘鸡(武大总店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '新疆菜',
     signatureDish: '待补充',
     avgPrice: 30,
@@ -20,9 +20,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:30'
   },
   {
-    id: 'guangba-083',
+    id: 'guangbalu-083',
     name: '矮子锅盔(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -35,9 +35,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-23:30'
   },
   {
-    id: 'guangba-107',
+    id: 'guangbalu-107',
     name: '爱的锅三汁焖锅(武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -50,9 +50,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'guangba-074',
+    id: 'guangbalu-074',
     name: '霸碗盖码饭(武汉樱悦汇广场店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -65,9 +65,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-116',
+    id: 'guangbalu-116',
     name: '薄荷轻食(武大校园店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -80,9 +80,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-19:00'
   },
   {
-    id: 'guangba-041',
+    id: 'guangbalu-041',
     name: '北京烤鸭(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 26,
@@ -94,9 +94,9 @@ export const restaurants: Restaurant[] = [
     tel: '13554800105'
   },
   {
-    id: 'guangba-125',
+    id: 'guangbalu-125',
     name: '北京片皮烤鸭(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -109,9 +109,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-024',
+    id: 'guangbalu-024',
     name: '笨姐烈火牛肉',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 39,
@@ -124,9 +124,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-03:00'
   },
   {
-    id: 'guangba-104',
+    id: 'guangbalu-104',
     name: '蔡明纬(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -139,9 +139,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-15:00'
   },
   {
-    id: 'guangba-085',
+    id: 'guangbalu-085',
     name: '茶百道(武汉大学正门店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -154,9 +154,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-006',
+    id: 'guangbalu-006',
     name: '超牛堡·炙烤牛肉汉堡(武大进校店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -167,9 +167,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'guangba-064',
+    id: 'guangbalu-064',
     name: '潮汕鲜牛肉粿条',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -180,9 +180,9 @@ export const restaurants: Restaurant[] = [
     cost: '23.00'
   },
   {
-    id: 'guangba-042',
+    id: 'guangbalu-042',
     name: '重庆红牛餐厅(武电仪小区店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 51,
@@ -195,9 +195,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-23:00'
   },
   {
-    id: 'guangba-123',
+    id: 'guangbalu-123',
     name: '重庆特色冷锅鱼(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 43,
@@ -210,9 +210,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-20:00'
   },
   {
-    id: 'guangba-110',
+    id: 'guangbalu-110',
     name: '丑小弟大排档(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 58,
@@ -225,9 +225,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:30-02:00'
   },
   {
-    id: 'guangba-119',
+    id: 'guangbalu-119',
     name: '川北郎鸡公煲砂锅菜',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -240,9 +240,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-065',
+    id: 'guangbalu-065',
     name: '川味麻辣香锅.万州烤鱼(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -255,9 +255,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-018',
+    id: 'guangbalu-018',
     name: '川香碳锅鱼(武大总店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 32,
@@ -270,9 +270,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-057',
+    id: 'guangbalu-057',
     name: '川鱼儿水煮鱼(武大校园店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -285,9 +285,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-059',
+    id: 'guangbalu-059',
     name: '川悦情麻辣香锅(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -300,9 +300,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'guangba-091',
+    id: 'guangbalu-091',
     name: '大米先生(省妇幼店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -315,9 +315,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-20:00'
   },
   {
-    id: 'guangba-049',
+    id: 'guangbalu-049',
     name: '大泽屋咖喱',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '日料',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -330,9 +330,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-009',
+    id: 'guangbalu-009',
     name: '丁记炒饭(武大可送校内店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -345,9 +345,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-096',
+    id: 'guangbalu-096',
     name: '恩施特色土家厨道(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 54,
@@ -360,9 +360,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-22:00'
   },
   {
-    id: 'guangba-016',
+    id: 'guangbalu-016',
     name: '丰禄泰·襄阳牛肉面(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -375,9 +375,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'guangba-066',
+    id: 'guangbalu-066',
     name: '疯狂鸭恋虾(武大珞珈门店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 59,
@@ -390,9 +390,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:30'
   },
   {
-    id: 'guangba-108',
+    id: 'guangbalu-108',
     name: '古茗(武大校内信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -405,9 +405,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-23:30'
   },
   {
-    id: 'guangba-007',
+    id: 'guangbalu-007',
     name: '好味道粉面馆(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -420,9 +420,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:30'
   },
   {
-    id: 'guangba-030',
+    id: 'guangbalu-030',
     name: '河南烩面',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 27,
@@ -435,9 +435,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:30'
   },
   {
-    id: 'guangba-067',
+    id: 'guangbalu-067',
     name: '黑粉你肥牛火锅粉(中科开物大厦店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -450,9 +450,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:30'
   },
   {
-    id: 'guangba-121',
+    id: 'guangbalu-121',
     name: '弘博餐厅(武汉大学店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -465,9 +465,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-20:00'
   },
   {
-    id: 'guangba-031',
+    id: 'guangbalu-031',
     name: '花头馄饨(武汉广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -480,9 +480,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'guangba-027',
+    id: 'guangbalu-027',
     name: '华哥烧烤',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '西餐',
     signatureDish: '待补充',
     avgPrice: 42,
@@ -495,9 +495,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-04:00'
   },
   {
-    id: 'guangba-070',
+    id: 'guangbalu-070',
     name: '华莱士·全鸡汉堡(武大正门店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -510,9 +510,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-22:00'
   },
   {
-    id: 'guangba-026',
+    id: 'guangbalu-026',
     name: '黄冈佬手擀面手工水饺',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -523,9 +523,9 @@ export const restaurants: Restaurant[] = [
     cost: '23.00'
   },
   {
-    id: 'guangba-004',
+    id: 'guangbalu-004',
     name: '黄焖鸡米饭',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -536,9 +536,9 @@ export const restaurants: Restaurant[] = [
     cost: '22.00'
   },
   {
-    id: 'guangba-117',
+    id: 'guangbalu-117',
     name: '黄蜀郎鸡公煲(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -551,9 +551,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-095',
+    id: 'guangbalu-095',
     name: '黄潭米粉(银海雅苑店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 8,
@@ -566,9 +566,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-21:00'
   },
   {
-    id: 'guangba-087',
+    id: 'guangbalu-087',
     name: '惠丰莞中餐厅(珞珈山路19号小区店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 52,
@@ -581,9 +581,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:30'
   },
   {
-    id: 'guangba-101',
+    id: 'guangbalu-101',
     name: '煎百味(武汉大学店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -596,9 +596,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'guangba-012',
+    id: 'guangbalu-012',
     name: '江南糕点(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 10,
@@ -611,9 +611,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-21:30'
   },
   {
-    id: 'guangba-054',
+    id: 'guangbalu-054',
     name: '江南小观园(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 66,
@@ -626,9 +626,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-080',
+    id: 'guangbalu-080',
     name: '椒大喜铜炉火锅鸡(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -641,9 +641,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-23:00'
   },
   {
-    id: 'guangba-077',
+    id: 'guangbalu-077',
     name: '饺饺嫂(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -656,9 +656,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-22:30'
   },
   {
-    id: 'guangba-015',
+    id: 'guangbalu-015',
     name: '金闪闪炸鸡腿(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -669,9 +669,9 @@ export const restaurants: Restaurant[] = [
     cost: '12.00'
   },
   {
-    id: 'guangba-040',
+    id: 'guangbalu-040',
     name: '荆楚裴记潜江龙虾馆',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -683,9 +683,9 @@ export const restaurants: Restaurant[] = [
     tel: '13564272664'
   },
   {
-    id: 'guangba-109',
+    id: 'guangbalu-109',
     name: '精武鸭脖',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -698,9 +698,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:45-22:45'
   },
   {
-    id: 'guangba-102',
+    id: 'guangbalu-102',
     name: '九筒冒菜(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -712,9 +712,9 @@ export const restaurants: Restaurant[] = [
     tel: '18062542341'
   },
   {
-    id: 'guangba-122',
+    id: 'guangbalu-122',
     name: '聚贤阁酸汤鱼',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 41,
@@ -727,9 +727,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-14:00 17:00-21:00'
   },
   {
-    id: 'guangba-063',
+    id: 'guangbalu-063',
     name: '肯德基(新武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 27,
@@ -742,9 +742,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'guangba-126',
+    id: 'guangbalu-126',
     name: '老成都冷锅鱼(街道口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 94,
@@ -757,9 +757,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-02:00'
   },
   {
-    id: 'guangba-029',
+    id: 'guangbalu-029',
     name: '老黑石头饼(老黑总店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 4,
@@ -772,9 +772,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:30-21:30'
   },
   {
-    id: 'guangba-098',
+    id: 'guangbalu-098',
     name: '老乡鸡(武大信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 26,
@@ -787,9 +787,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-22:30'
   },
   {
-    id: 'guangba-076',
+    id: 'guangbalu-076',
     name: '临榆炸鸡腿(武大路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -802,9 +802,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-120',
+    id: 'guangbalu-120',
     name: '刘文祥麻辣烫(街道口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -817,9 +817,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-02:30'
   },
   {
-    id: 'guangba-092',
+    id: 'guangbalu-092',
     name: '柳妹妹螺蛳粉(广埠屯店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -832,9 +832,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'guangba-124',
+    id: 'guangbalu-124',
     name: '柳州螺蛳粉(武汉大学店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -847,9 +847,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-21:30'
   },
   {
-    id: 'guangba-046',
+    id: 'guangbalu-046',
     name: '隆江猪脚饭(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -861,9 +861,9 @@ export const restaurants: Restaurant[] = [
     tel: '18771970380'
   },
   {
-    id: 'guangba-039',
+    id: 'guangbalu-039',
     name: '卤帮现捞·麻椒鸡(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -874,9 +874,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'guangba-068',
+    id: 'guangbalu-068',
     name: '卤鼎记·热卤拌饭',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -887,9 +887,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'guangba-033',
+    id: 'guangbalu-033',
     name: '毛豆嫂专卖店(广八路总店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -902,9 +902,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-24:00'
   },
   {
-    id: 'guangba-045',
+    id: 'guangbalu-045',
     name: '毛哥长沙小家常',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 51,
@@ -917,9 +917,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-14:00 16:30-21:30'
   },
   {
-    id: 'guangba-081',
+    id: 'guangbalu-081',
     name: '蜜雪冰城(武汉大学店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -932,9 +932,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:30-23:00'
   },
   {
-    id: 'guangba-023',
+    id: 'guangbalu-023',
     name: '面妈妈热干面(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 7,
@@ -947,9 +947,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:30-12:30'
   },
   {
-    id: 'guangba-103',
+    id: 'guangbalu-103',
     name: '柠季·手打柠檬茶(武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -962,9 +962,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'guangba-013',
+    id: 'guangbalu-013',
     name: '牛骨力湘味米粉',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -976,9 +976,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'guangba-079',
+    id: 'guangbalu-079',
     name: '牛约堡-牛肉汉堡(武汉街道口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -991,9 +991,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-04:00'
   },
   {
-    id: 'guangba-011',
+    id: 'guangbalu-011',
     name: '糯米包油条(武大文理学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -1006,9 +1006,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-02:00'
   },
   {
-    id: 'guangba-099',
+    id: 'guangbalu-099',
     name: '胖子特色土菜(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -1021,9 +1021,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:00-22:00'
   },
   {
-    id: 'guangba-061',
+    id: 'guangbalu-061',
     name: '黔豆多豆豉火锅',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 46,
@@ -1036,9 +1036,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'guangba-093',
+    id: 'guangbalu-093',
     name: '秦晋油泼面',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -1051,9 +1051,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'guangba-038',
+    id: 'guangbalu-038',
     name: '肉肉烧腊',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -1066,9 +1066,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'guangba-128',
+    id: 'guangbalu-128',
     name: '瑞幸咖啡(珞珈国际店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -1081,9 +1081,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'guangba-071',
+    id: 'guangbalu-071',
     name: '瑞幸咖啡(武汉大学珞珈山店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -1096,9 +1096,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'guangba-115',
+    id: 'guangbalu-115',
     name: '瑞幸咖啡(武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -1111,9 +1111,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-18:00'
   },
   {
-    id: 'guangba-010',
+    id: 'guangbalu-010',
     name: '三米粥铺(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -1125,9 +1125,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-21:30'
   },
   {
-    id: 'guangba-036',
+    id: 'guangbalu-036',
     name: '三鲜豆皮小笼包(武电仪小区店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -1139,9 +1139,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-12:00'
   },
   {
-    id: 'guangba-089',
+    id: 'guangbalu-089',
     name: '沙县小吃(珞狮路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -1152,9 +1152,9 @@ export const restaurants: Restaurant[] = [
     cost: '14.00'
   },
   {
-    id: 'guangba-048',
+    id: 'guangbalu-048',
     name: '扇味黄焖鸡(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -1167,9 +1167,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'guangba-017',
+    id: 'guangbalu-017',
     name: '神厨烧烤大排档',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -1182,9 +1182,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-03:00'
   },
   {
-    id: 'guangba-028',
+    id: 'guangbalu-028',
     name: '盛先森的鲜面馆(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -1197,9 +1197,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-22:00'
   },
   {
-    id: 'guangba-056',
+    id: 'guangbalu-056',
     name: '拾味温度·咖喱蛋包饭(街道口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -1212,9 +1212,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'guangba-073',
+    id: 'guangbalu-073',
     name: '食畈(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -1227,9 +1227,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-20:00'
   },
   {
-    id: 'guangba-072',
+    id: 'guangbalu-072',
     name: '汤师傅东北菜馆(街道口二店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '东北菜',
     signatureDish: '待补充',
     avgPrice: 48,
@@ -1242,9 +1242,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'guangba-100',
+    id: 'guangbalu-100',
     name: '天一朴素',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 73,
@@ -1257,9 +1257,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-20:30'
   },
   {
-    id: 'guangba-005',
+    id: 'guangbalu-005',
     name: '味来小厨(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -1271,9 +1271,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:30'
   },
   {
-    id: 'guangba-050',
+    id: 'guangbalu-050',
     name: '武汉-楚太子特色餐饮(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 64,
@@ -1286,9 +1286,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-24:00'
   },
   {
-    id: 'guangba-106',
+    id: 'guangbalu-106',
     name: '武汉大学信息学部学生一食堂',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -1300,9 +1300,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:30'
   },
   {
-    id: 'guangba-086',
+    id: 'guangbalu-086',
     name: '香酥鸡蛋灌饼(珞珈山路19号小区店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -1314,9 +1314,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-23:00'
   },
   {
-    id: 'guangba-114',
+    id: 'guangbalu-114',
     name: '湘野农家菜(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -1329,9 +1329,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:30-23:00'
   },
   {
-    id: 'guangba-032',
+    id: 'guangbalu-032',
     name: '小罗餐厅',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 39,
@@ -1344,9 +1344,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-24:00'
   },
   {
-    id: 'guangba-021',
+    id: 'guangbalu-021',
     name: '小潘烧烤(武汉洪山区)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 50,
@@ -1359,9 +1359,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-02:00'
   },
   {
-    id: 'guangba-111',
+    id: 'guangbalu-111',
     name: '新疆餐厅/西域美味/烧烤店',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 38,
@@ -1374,9 +1374,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-03:00'
   },
   {
-    id: 'guangba-035',
+    id: 'guangbalu-035',
     name: '新疆美味羊肉串(武电仪小区店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '新疆菜',
     signatureDish: '待补充',
     avgPrice: 45,
@@ -1389,9 +1389,9 @@ export const restaurants: Restaurant[] = [
     openTime: '13:30-02:30'
   },
   {
-    id: 'guangba-051',
+    id: 'guangbalu-051',
     name: '新龙记鸡公煲(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 28,
@@ -1404,9 +1404,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-037',
+    id: 'guangbalu-037',
     name: '星湖园餐厅(暂停营业)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 69,
@@ -1419,9 +1419,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:30'
   },
   {
-    id: 'guangba-069',
+    id: 'guangbalu-069',
     name: '幸运咖(武大正门口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 10,
@@ -1434,9 +1434,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-22:00'
   },
   {
-    id: 'guangba-082',
+    id: 'guangbalu-082',
     name: '熊麻婆现炒浇头面饭(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -1449,9 +1449,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-23:00'
   },
   {
-    id: 'guangba-019',
+    id: 'guangbalu-019',
     name: '徐氏牛杂馆(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -1464,9 +1464,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:30-15:00'
   },
   {
-    id: 'guangba-025',
+    id: 'guangbalu-025',
     name: '轩王烧烤大排档(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 56,
@@ -1479,9 +1479,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:45-02:00'
   },
   {
-    id: 'guangba-047',
+    id: 'guangbalu-047',
     name: '宴锦膳·黄焖鸡(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -1494,9 +1494,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-22:00'
   },
   {
-    id: 'guangba-078',
+    id: 'guangbalu-078',
     name: '杨国福麻辣烫(武汉大学店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -1509,9 +1509,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'guangba-094',
+    id: 'guangbalu-094',
     name: '一起裹凉皮(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -1524,9 +1524,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:30'
   },
   {
-    id: 'guangba-090',
+    id: 'guangbalu-090',
     name: '宜昌老面红油牛肉包(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 8,
@@ -1539,9 +1539,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-20:30'
   },
   {
-    id: 'guangba-075',
+    id: 'guangbalu-075',
     name: '益禾堂(武汉大学珞珈门店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 8,
@@ -1554,9 +1554,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:30-22:30'
   },
   {
-    id: 'guangba-127',
+    id: 'guangbalu-127',
     name: '燚碗牛·轻烤牛肉饭(街道口店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '西餐',
     signatureDish: '待补充',
     avgPrice: 44,
@@ -1569,9 +1569,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'guangba-062',
+    id: 'guangbalu-062',
     name: '樱悦汇商业美食广场',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -1584,9 +1584,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-21:00'
   },
   {
-    id: 'guangba-003',
+    id: 'guangbalu-003',
     name: '有家黄焖鸡(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -1599,9 +1599,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-055',
+    id: 'guangbalu-055',
     name: '于府哈尔滨私房菜',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '东北菜',
     signatureDish: '待补充',
     avgPrice: 45,
@@ -1614,9 +1614,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-14:00 16:30-22:00'
   },
   {
-    id: 'guangba-014',
+    id: 'guangbalu-014',
     name: '鱼籽村秘制拌饭(武大店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 30,
@@ -1628,9 +1628,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'guangba-113',
+    id: 'guangbalu-113',
     name: '遇得好面馆',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -1642,9 +1642,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:30-19:30'
   },
   {
-    id: 'guangba-084',
+    id: 'guangbalu-084',
     name: '源味嫂鲜牛面馆',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -1656,9 +1656,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-20:00'
   },
   {
-    id: 'guangba-053',
+    id: 'guangbalu-053',
     name: '张亮麻辣烫(武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 30,
@@ -1671,9 +1671,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-022',
+    id: 'guangbalu-022',
     name: '张中烧烤',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 51,
@@ -1686,9 +1686,9 @@ export const restaurants: Restaurant[] = [
     openTime: '17:00-01:00'
   },
   {
-    id: 'guangba-058',
+    id: 'guangbalu-058',
     name: '赵记怪味面',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -1701,9 +1701,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-21:00'
   },
   {
-    id: 'guangba-034',
+    id: 'guangbalu-034',
     name: '正新鸡排(广八店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -1716,9 +1716,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'guangba-088',
+    id: 'guangbalu-088',
     name: '正新鸡排(武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -1730,9 +1730,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-24:00'
   },
   {
-    id: 'guangba-112',
+    id: 'guangbalu-112',
     name: '中国兰州拉面(洪山店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '新疆菜',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -1745,9 +1745,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-118',
+    id: 'guangbalu-118',
     name: '中国兰州牛肉拉面(八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '新疆菜',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -1760,9 +1760,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'guangba-043',
+    id: 'guangbalu-043',
     name: '中国兰州牛肉拉面(广八路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -1775,9 +1775,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-23:00'
   },
   {
-    id: 'guangba-060',
+    id: 'guangbalu-060',
     name: '状元府烧烤传统木炭烤制',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 65,
@@ -1790,9 +1790,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-01:00'
   },
   {
-    id: 'guangba-008',
+    id: 'guangbalu-008',
     name: '紫燕百味鸡(武汉八一路店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -1805,9 +1805,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:00'
   },
   {
-    id: 'guangba-097',
+    id: 'guangbalu-097',
     name: '嘴巴馄饨',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -1820,9 +1820,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-20:30'
   },
   {
-    id: 'guangba-105',
+    id: 'guangbalu-105',
     name: 'CHAGEE霸王茶姬(湖北武汉大学信息学部店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -1835,9 +1835,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'guangba-052',
+    id: 'guangbalu-052',
     name: 'CHAGEE霸王茶姬(湖北武汉大学正门店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -1850,9 +1850,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-24:00'
   },
   {
-    id: 'guangba-044',
+    id: 'guangbalu-044',
     name: 'Musi新疆炒米粉',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -1865,9 +1865,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-24:00'
   },
   {
-    id: 'guangba-001',
+    id: 'guangbalu-001',
     name: '布咖啡(武汉大学校园店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -1880,9 +1880,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-19:30'
   },
   {
-    id: 'guangba-002',
+    id: 'guangbalu-002',
     name: '栀否栀否·中国冰激淋糖水(武大校内店)',
-    streetId: 'guangba',
+    streetId: 'guangbalu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -1898,9 +1898,9 @@ export const restaurants: Restaurant[] = [
   // 八一路 (1家)
   // ============================================================
   {
-    id: 'bayi-007',
+    id: 'bayilu-007',
     name: '古茗(武大梅园店)',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -1913,9 +1913,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-22:30'
   },
   {
-    id: 'bayi-002',
+    id: 'bayilu-002',
     name: '匠心卤·热卤拌饭(武大枫园店)',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -1926,9 +1926,9 @@ export const restaurants: Restaurant[] = [
     cost: '18.00'
   },
   {
-    id: 'bayi-008',
+    id: 'bayilu-008',
     name: '山西面食馆',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -1941,9 +1941,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-21:00'
   },
   {
-    id: 'bayi-004',
+    id: 'bayilu-004',
     name: '书亦烧仙草(武大工学校内店)',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -1956,9 +1956,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-22:00'
   },
   {
-    id: 'bayi-005',
+    id: 'bayilu-005',
     name: '它山咖啡',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 48,
@@ -1971,9 +1971,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-19:00'
   },
   {
-    id: 'bayi-003',
+    id: 'bayilu-003',
     name: '呷哺呷哺(武汉武大梅园店)',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 60,
@@ -1986,9 +1986,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'bayi-006',
+    id: 'bayilu-006',
     name: '香茵波克现烤汉堡(武大校区店)',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -2001,9 +2001,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'bayi-001',
+    id: 'bayilu-001',
     name: '佳乐粉面馆',
-    streetId: 'bayi',
+    streetId: 'bayilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -2019,9 +2019,9 @@ export const restaurants: Restaurant[] = [
   // 东湖新村 (10家)
   // ============================================================
   {
-    id: 'donghu-021',
+    id: 'donghuxincun-021',
     name: '茶百道(武汉大学校内店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -2034,9 +2034,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'donghu-022',
+    id: 'donghuxincun-022',
     name: '工学部三食堂',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2047,9 +2047,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'donghu-024',
+    id: 'donghuxincun-024',
     name: '吉野家(武汉大学工学部店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 38,
@@ -2062,9 +2062,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:30'
   },
   {
-    id: 'donghu-029',
+    id: 'donghuxincun-029',
     name: '库迪咖啡(武汉大学工学部店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -2077,9 +2077,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-19:30'
   },
   {
-    id: 'donghu-031',
+    id: 'donghuxincun-031',
     name: '凌波门·湖山咖啡HOLLL',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 48,
@@ -2092,9 +2092,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:30 10:00-22:00'
   },
   {
-    id: 'donghu-032',
+    id: 'donghuxincun-032',
     name: '流浪乌龟日咖夜酒(东湖凌波门店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 57,
@@ -2105,9 +2105,9 @@ export const restaurants: Restaurant[] = [
     cost: '57.00'
   },
   {
-    id: 'donghu-019',
+    id: 'donghuxincun-019',
     name: '珞珈工学天地',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 37,
@@ -2118,9 +2118,9 @@ export const restaurants: Restaurant[] = [
     cost: '37.00'
   },
   {
-    id: 'donghu-011',
+    id: 'donghuxincun-011',
     name: '珞珈面馆(湖滨店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2132,9 +2132,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-13:30 16:00-19:00'
   },
   {
-    id: 'donghu-017',
+    id: 'donghuxincun-017',
     name: '麦当劳(武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -2147,9 +2147,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'donghu-013',
+    id: 'donghuxincun-013',
     name: '蜜雪冰城(武大湖滨店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 8,
@@ -2162,9 +2162,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:30'
   },
   {
-    id: 'donghu-027',
+    id: 'donghuxincun-027',
     name: '朴大叔拌饭(武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -2177,9 +2177,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-22:00'
   },
   {
-    id: 'donghu-018',
+    id: 'donghuxincun-018',
     name: '瑞幸咖啡(武汉大学工学部店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -2192,9 +2192,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'donghu-014',
+    id: 'donghuxincun-014',
     name: '瑞幸咖啡(武汉大学湖滨店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2207,9 +2207,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'donghu-023',
+    id: 'donghuxincun-023',
     name: '赛百味(武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -2222,9 +2222,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-21:00'
   },
   {
-    id: 'donghu-030',
+    id: 'donghuxincun-030',
     name: '舌尖大师铁板锅(武大珞珈山店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '湖北菜',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -2237,9 +2237,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:30'
   },
   {
-    id: 'donghu-015',
+    id: 'donghuxincun-015',
     name: '武汉大学工学部学生一食堂',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2251,9 +2251,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-09:30 11:00-13:00 17:00-19:00'
   },
   {
-    id: 'donghu-012',
+    id: 'donghuxincun-012',
     name: '武汉大学湖滨风味食堂',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -2266,9 +2266,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-12:30 16:30-19:30'
   },
   {
-    id: 'donghu-020',
+    id: 'donghuxincun-020',
     name: '喜茶(武汉大学工学部店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -2281,9 +2281,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-18:00'
   },
   {
-    id: 'donghu-026',
+    id: 'donghuxincun-026',
     name: '星巴克(武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 30,
@@ -2296,9 +2296,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-19:30'
   },
   {
-    id: 'donghu-025',
+    id: 'donghuxincun-025',
     name: '遇见小面(武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -2311,9 +2311,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:30'
   },
   {
-    id: 'donghu-028',
+    id: 'donghuxincun-028',
     name: '袁记云饺(武昌区武汉大学店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -2325,9 +2325,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'donghu-016',
+    id: 'donghuxincun-016',
     name: 'Manner coffee(武汉大学工学部店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -2339,9 +2339,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-17:00'
   },
   {
-    id: 'donghu-001',
+    id: 'donghuxincun-001',
     name: '阿财咖啡(街道口店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2350,9 +2350,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'donghu-002',
+    id: 'donghuxincun-002',
     name: '半夜有虾(街道口店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 57,
@@ -2365,9 +2365,9 @@ export const restaurants: Restaurant[] = [
     openTime: '14:00-04:00'
   },
   {
-    id: 'donghu-003',
+    id: 'donghuxincun-003',
     name: '珈宴院子餐厅',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 98,
@@ -2380,9 +2380,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-14:00 16:30-21:30'
   },
   {
-    id: 'donghu-004',
+    id: 'donghuxincun-004',
     name: '老屋茶舍',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2391,9 +2391,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'donghu-005',
+    id: 'donghuxincun-005',
     name: '齐齐小吃店生煎锅贴汤包(武大店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2402,9 +2402,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'donghu-006',
+    id: 'donghuxincun-006',
     name: '琴姨炒饭',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2415,9 +2415,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'donghu-007',
+    id: 'donghuxincun-007',
     name: '无名缘米粉(珞南街店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2430,9 +2430,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'donghu-008',
+    id: 'donghuxincun-008',
     name: '五洲餐厅(求是大道店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 59,
@@ -2445,9 +2445,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:00'
   },
   {
-    id: 'donghu-009',
+    id: 'donghuxincun-009',
     name: '宴江城·湖北家宴(街道口店)',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 80,
@@ -2460,9 +2460,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 17:00-21:00'
   },
   {
-    id: 'donghu-010',
+    id: 'donghuxincun-010',
     name: '长白山料理',
-    streetId: 'donghu',
+    streetId: 'donghuxincun',
     cuisine: '韩料',
     signatureDish: '待补充',
     avgPrice: 56,
@@ -2478,9 +2478,9 @@ export const restaurants: Restaurant[] = [
   // 珞狮北路 (10家)
   // ============================================================
   {
-    id: 'luoshi-014',
+    id: 'luoshibeilu-014',
     name: '宝岛小厨(武大店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -2493,9 +2493,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-22:00'
   },
   {
-    id: 'luoshi-013',
+    id: 'luoshibeilu-013',
     name: '蔡明纬(武大工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2508,9 +2508,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-20:00'
   },
   {
-    id: 'luoshi-029',
+    id: 'luoshibeilu-029',
     name: '茶语寿司(工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '日料',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -2523,9 +2523,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-19:30'
   },
   {
-    id: 'luoshi-015',
+    id: 'luoshibeilu-015',
     name: '川味坊(茶港路店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -2538,9 +2538,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 17:00-20:00'
   },
   {
-    id: 'luoshi-020',
+    id: 'luoshibeilu-020',
     name: '大囍螺蛳粉',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2551,9 +2551,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'luoshi-025',
+    id: 'luoshibeilu-025',
     name: '古茗(武大校内工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -2566,9 +2566,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-23:00'
   },
   {
-    id: 'luoshi-019',
+    id: 'luoshibeilu-019',
     name: '桂圆馄饨(武大校内店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2579,9 +2579,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'luoshi-026',
+    id: 'luoshibeilu-026',
     name: '花焙格各音乐餐吧',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 57,
@@ -2594,9 +2594,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'luoshi-031',
+    id: 'luoshibeilu-031',
     name: '老渔馆(东湖店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 121,
@@ -2609,9 +2609,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'luoshi-028',
+    id: 'luoshibeilu-028',
     name: '珞家拾光(可送寝室楼下店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -2624,9 +2624,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-19:30'
   },
   {
-    id: 'luoshi-022',
+    id: 'luoshibeilu-022',
     name: '瑞幸咖啡(武汉大学田园食堂店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -2639,9 +2639,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:00'
   },
   {
-    id: 'luoshi-030',
+    id: 'luoshibeilu-030',
     name: '善财面·武汉大学店',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -2654,9 +2654,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-21:00'
   },
   {
-    id: 'luoshi-027',
+    id: 'luoshibeilu-027',
     name: '糖颂TaSong(武大手作巴斯克)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2667,9 +2667,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'luoshi-011',
+    id: 'luoshibeilu-011',
     name: '土黄牛肉面(武大工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2680,9 +2680,9 @@ export const restaurants: Restaurant[] = [
     cost: '12.00'
   },
   {
-    id: 'luoshi-017',
+    id: 'luoshibeilu-017',
     name: '外婆卤肉菜饭(武大工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -2693,9 +2693,9 @@ export const restaurants: Restaurant[] = [
     cost: '19.00'
   },
   {
-    id: 'luoshi-023',
+    id: 'luoshibeilu-023',
     name: '武大田园珈宴',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -2708,9 +2708,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'luoshi-016',
+    id: 'luoshibeilu-016',
     name: '武汉大学家常菜',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 42,
@@ -2723,9 +2723,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-22:30'
   },
   {
-    id: 'luoshi-018',
+    id: 'luoshibeilu-018',
     name: '湘菜馆(武汉大学内店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 40,
@@ -2738,9 +2738,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'luoshi-033',
+    id: 'luoshibeilu-033',
     name: '骁记厨房(茶港社区北区店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 83,
@@ -2753,9 +2753,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:30-14:00 17:00-22:00'
   },
   {
-    id: 'luoshi-012',
+    id: 'luoshibeilu-012',
     name: '小伙计(武大工学部店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -2767,9 +2767,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:00'
   },
   {
-    id: 'luoshi-024',
+    id: 'luoshibeilu-024',
     name: '秀味馄饨(武大店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -2782,9 +2782,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-19:30'
   },
   {
-    id: 'luoshi-021',
+    id: 'luoshibeilu-021',
     name: '爷爷不泡茶NOYEYENOTEA(武汉大学田园店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -2797,9 +2797,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:30-21:30'
   },
   {
-    id: 'luoshi-032',
+    id: 'luoshibeilu-032',
     name: '悦阁仙品酒店(武汉大学店)·餐厅',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2812,9 +2812,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-11:30 13:30-21:30'
   },
   {
-    id: 'luoshi-001',
+    id: 'luoshibeilu-001',
     name: '巴渝小厨',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2823,9 +2823,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'luoshi-002',
+    id: 'luoshibeilu-002',
     name: '博远襄阳牛肉面(水果湖店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2838,9 +2838,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:15-22:00'
   },
   {
-    id: 'luoshi-003',
+    id: 'luoshibeilu-003',
     name: '公选王状元阁',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 123,
@@ -2853,9 +2853,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'luoshi-004',
+    id: 'luoshibeilu-004',
     name: '和善园手工大包',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -2866,9 +2866,9 @@ export const restaurants: Restaurant[] = [
     cost: '9.00'
   },
   {
-    id: 'luoshi-005',
+    id: 'luoshibeilu-005',
     name: '家常小炒(星耀路店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2877,9 +2877,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'luoshi-006',
+    id: 'luoshibeilu-006',
     name: '金橡果餐厅',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 38,
@@ -2892,9 +2892,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'luoshi-007',
+    id: 'luoshibeilu-007',
     name: '瑾月酥糕点(小洪山地铁站A口店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2903,9 +2903,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'luoshi-008',
+    id: 'luoshibeilu-008',
     name: '绿膳(小洪山食堂店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -2918,9 +2918,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'luoshi-009',
+    id: 'luoshibeilu-009',
     name: '十二甘棠·法式蛋糕·动物奶油',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -2929,9 +2929,9 @@ export const restaurants: Restaurant[] = [
     tags: ["待补充"],
   },
   {
-    id: 'luoshi-010',
+    id: 'luoshibeilu-010',
     name: '正宗松滋杜婆鸡(科技小路店)',
-    streetId: 'luoshi',
+    streetId: 'luoshibeilu',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 63,
@@ -2947,9 +2947,9 @@ export const restaurants: Restaurant[] = [
   // 校内 (27家)
   // ============================================================
   {
-    id: 'wenli-122',
+    id: 'xiaonei-122',
     name: '阿疆X味·新疆炒米粉(武大校内店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -2960,9 +2960,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-074',
+    id: 'xiaonei-074',
     name: '阿朴社长芝士料理(武昌八一路店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '东北菜',
     signatureDish: '待补充',
     avgPrice: 52,
@@ -2975,9 +2975,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'wenli-105',
+    id: 'xiaonei-105',
     name: '安庆特色馄饨(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -2990,9 +2990,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-24:00'
   },
   {
-    id: 'wenli-048',
+    id: 'xiaonei-048',
     name: '柏凡餐饮',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3003,9 +3003,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-125',
+    id: 'xiaonei-125',
     name: '蔡明纬(东湖·楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -3018,9 +3018,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-21:00'
   },
   {
-    id: 'wenli-055',
+    id: 'xiaonei-055',
     name: '灿灿快餐(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -3033,9 +3033,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:00'
   },
   {
-    id: 'wenli-066',
+    id: 'xiaonei-066',
     name: '馋嘴客烤肉饭牛排意面',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3046,9 +3046,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-093',
+    id: 'xiaonei-093',
     name: '陈师傅私房菜',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 48,
@@ -3061,9 +3061,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-23:00'
   },
   {
-    id: 'wenli-063',
+    id: 'xiaonei-063',
     name: '成都汤记冷锅鱼',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 40,
@@ -3076,9 +3076,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-13:00 17:00-20:30'
   },
   {
-    id: 'wenli-059',
+    id: 'xiaonei-059',
     name: '重庆肥肠牛杂小面(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3090,9 +3090,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:45-21:00'
   },
   {
-    id: 'wenli-117',
+    id: 'xiaonei-117',
     name: '重庆麻辣烫(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -3105,9 +3105,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:50-22:00'
   },
   {
-    id: 'wenli-067',
+    id: 'xiaonei-067',
     name: '重庆特色菜(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 27,
@@ -3120,9 +3120,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-22:00'
   },
   {
-    id: 'wenli-060',
+    id: 'xiaonei-060',
     name: '重庆特色烤鱼(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 41,
@@ -3135,9 +3135,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-14:30 16:30-22:00'
   },
   {
-    id: 'wenli-056',
+    id: 'xiaonei-056',
     name: '重庆鸭煲王(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -3150,9 +3150,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'wenli-032',
+    id: 'xiaonei-032',
     name: '初山饭团(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -3165,9 +3165,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-19:00'
   },
   {
-    id: 'wenli-126',
+    id: 'xiaonei-126',
     name: '楚润阁茶坊(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 205,
@@ -3180,9 +3180,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-23:30'
   },
   {
-    id: 'wenli-079',
+    id: 'xiaonei-079',
     name: '川香碳锅鱼(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 50,
@@ -3195,9 +3195,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:30'
   },
   {
-    id: 'wenli-039',
+    id: 'xiaonei-039',
     name: '大李小碗菜',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3208,9 +3208,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-053',
+    id: 'xiaonei-053',
     name: '顶屋咖喱(武大分店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '西餐',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -3222,9 +3222,9 @@ export const restaurants: Restaurant[] = [
     tel: '13720236389'
   },
   {
-    id: 'wenli-131',
+    id: 'xiaonei-131',
     name: '东北饺子馆(楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -3237,9 +3237,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-23:00'
   },
   {
-    id: 'wenli-036',
+    id: 'xiaonei-036',
     name: '东湖老热干面馆',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3252,9 +3252,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-14:00'
   },
   {
-    id: 'wenli-080',
+    id: 'xiaonei-080',
     name: '东湖炭火铜炉鸡(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 56,
@@ -3266,9 +3266,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-23:00'
   },
   {
-    id: 'wenli-065',
+    id: 'xiaonei-065',
     name: '二十四味茶(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -3280,9 +3280,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-22:30'
   },
   {
-    id: 'wenli-057',
+    id: 'xiaonei-057',
     name: '啡舖',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -3294,9 +3294,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'wenli-030',
+    id: 'xiaonei-030',
     name: '枫园风味食堂',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3308,9 +3308,9 @@ export const restaurants: Restaurant[] = [
     tel: '027-68752535'
   },
   {
-    id: 'wenli-106',
+    id: 'xiaonei-106',
     name: '凤爪王烧烤八一路店',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 61,
@@ -3323,9 +3323,9 @@ export const restaurants: Restaurant[] = [
     openTime: '17:00-01:30 17:00-01:30'
   },
   {
-    id: 'wenli-062',
+    id: 'xiaonei-062',
     name: '福来家常菜馆(珞珈山路)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 41,
@@ -3338,9 +3338,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'wenli-103',
+    id: 'xiaonei-103',
     name: '富记东北菜饺子铁锅炖(东湖·楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 72,
@@ -3353,9 +3353,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-15:00 17:00-23:00'
   },
   {
-    id: 'wenli-108',
+    id: 'xiaonei-108',
     name: '宫老四上品烧烤(东湖·楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 66,
@@ -3368,9 +3368,9 @@ export const restaurants: Restaurant[] = [
     openTime: '17:00-01:00'
   },
   {
-    id: 'wenli-047',
+    id: 'xiaonei-047',
     name: '谷肆道暴打柠檬鸡',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3381,9 +3381,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-127',
+    id: 'xiaonei-127',
     name: '关东水饺(武大校内店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -3396,9 +3396,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-23:00'
   },
   {
-    id: 'wenli-040',
+    id: 'xiaonei-040',
     name: '广东石磨肠粉(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -3411,9 +3411,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-23:10'
   },
   {
-    id: 'wenli-054',
+    id: 'xiaonei-054',
     name: '贵州农家羊肉粉(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -3424,9 +3424,9 @@ export const restaurants: Restaurant[] = [
     cost: '20.00'
   },
   {
-    id: 'wenli-058',
+    id: 'xiaonei-058',
     name: '桂林米粉(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -3439,9 +3439,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-23:00'
   },
   {
-    id: 'wenli-111',
+    id: 'xiaonei-111',
     name: '和雨楼·炊烟楚菜',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 51,
@@ -3454,9 +3454,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'wenli-073',
+    id: 'xiaonei-073',
     name: '河北饺子馆(东湖村军转小区西北)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -3469,9 +3469,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:01-20:02'
   },
   {
-    id: 'wenli-095',
+    id: 'xiaonei-095',
     name: '荷田餐茶小憩',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -3484,9 +3484,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 17:00-20:00'
   },
   {
-    id: 'wenli-121',
+    id: 'xiaonei-121',
     name: '胡乐乐·猪脚饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -3499,9 +3499,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'wenli-135',
+    id: 'xiaonei-135',
     name: '湖北省疾病预防控制中心职工餐厅',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -3512,9 +3512,9 @@ export const restaurants: Restaurant[] = [
     cost: '13.00'
   },
   {
-    id: 'wenli-114',
+    id: 'xiaonei-114',
     name: '湖南蜂蜜琪玛酥(东湖村社区北)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3526,9 +3526,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-22:00'
   },
   {
-    id: 'wenli-037',
+    id: 'xiaonei-037',
     name: '欢喜炉边火锅店',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 27,
@@ -3541,9 +3541,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:30'
   },
   {
-    id: 'wenli-077',
+    id: 'xiaonei-077',
     name: '皇记卤味',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -3554,9 +3554,9 @@ export const restaurants: Restaurant[] = [
     cost: '23.00'
   },
   {
-    id: 'wenli-052',
+    id: 'xiaonei-052',
     name: '黄蜀郎重庆鸡公煲(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -3569,9 +3569,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'wenli-031',
+    id: 'xiaonei-031',
     name: '金麦坊面包房(武大二店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -3584,9 +3584,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'wenli-089',
+    id: 'xiaonei-089',
     name: '玖味拌饭屋',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 22,
@@ -3597,9 +3597,9 @@ export const restaurants: Restaurant[] = [
     cost: '22.00'
   },
   {
-    id: 'wenli-081',
+    id: 'xiaonei-081',
     name: '聚福园家常菜馆',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -3612,9 +3612,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-23:30'
   },
   {
-    id: 'wenli-041',
+    id: 'xiaonei-041',
     name: '烤个锤子串',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 32,
@@ -3626,9 +3626,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-23:00'
   },
   {
-    id: 'wenli-092',
+    id: 'xiaonei-092',
     name: '可甜武汉大学店',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -3640,9 +3640,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'wenli-097',
+    id: 'xiaonei-097',
     name: '辣江湖·现煲黑鸭煲(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3653,9 +3653,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-064',
+    id: 'xiaonei-064',
     name: '兰州牛肉拉面(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -3668,9 +3668,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-22:30'
   },
   {
-    id: 'wenli-124',
+    id: 'xiaonei-124',
     name: '兰州牛肉面(八一路店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '新疆菜',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -3682,9 +3682,9 @@ export const restaurants: Restaurant[] = [
     tel: '13119707960'
   },
   {
-    id: 'wenli-043',
+    id: 'xiaonei-043',
     name: '老北京涮肉(珞滨路店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 73,
@@ -3697,9 +3697,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:30-14:00 17:00-21:30'
   },
   {
-    id: 'wenli-116',
+    id: 'xiaonei-116',
     name: '老成都冒烤鸭(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 28,
@@ -3710,9 +3710,9 @@ export const restaurants: Restaurant[] = [
     cost: '28.00'
   },
   {
-    id: 'wenli-044',
+    id: 'xiaonei-044',
     name: '李记东北鲜水饺',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3723,9 +3723,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-069',
+    id: 'xiaonei-069',
     name: '玲珑餐厅(东湖新村武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -3738,9 +3738,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:30'
   },
   {
-    id: 'wenli-091',
+    id: 'xiaonei-091',
     name: '刘记烧烤',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 73,
@@ -3753,9 +3753,9 @@ export const restaurants: Restaurant[] = [
     openTime: '17:00-02:00'
   },
   {
-    id: 'wenli-104',
+    id: 'xiaonei-104',
     name: '刘先森·把子肉排骨米饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3766,9 +3766,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-035',
+    id: 'xiaonei-035',
     name: '卢记家常菜馆(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -3780,9 +3780,9 @@ export const restaurants: Restaurant[] = [
     tel: '15827369472'
   },
   {
-    id: 'wenli-110',
+    id: 'xiaonei-110',
     name: '炉边边·山野鲜货火锅(广埠屯店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 69,
@@ -3795,9 +3795,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-23:00'
   },
   {
-    id: 'wenli-128',
+    id: 'xiaonei-128',
     name: '珞珈山宾馆-楚天厅(武汉大学东湖店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 84,
@@ -3809,9 +3809,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-13:30 17:00-19:30'
   },
   {
-    id: 'wenli-118',
+    id: 'xiaonei-118',
     name: '珞珈山宾馆-古亭咖啡(武汉大学东湖店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 39,
@@ -3824,9 +3824,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:30'
   },
   {
-    id: 'wenli-120',
+    id: 'xiaonei-120',
     name: '珞珈山宾馆-珈·宴(武汉大学东湖店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -3839,9 +3839,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-13:00 17:00-19:00'
   },
   {
-    id: 'wenli-028',
+    id: 'xiaonei-028',
     name: '珞珈山庄餐厅',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 59,
@@ -3854,9 +3854,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'wenli-078',
+    id: 'xiaonei-078',
     name: '妈妈餐馆',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 51,
@@ -3869,9 +3869,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-13:30 16:30-20:30'
   },
   {
-    id: 'wenli-090',
+    id: 'xiaonei-090',
     name: '蒙古烤鸡碳烤肉(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '西餐',
     signatureDish: '待补充',
     avgPrice: 42,
@@ -3882,9 +3882,9 @@ export const restaurants: Restaurant[] = [
     cost: '42.00'
   },
   {
-    id: 'wenli-102',
+    id: 'xiaonei-102',
     name: '蜜哆哆韩式炸鸡(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -3897,9 +3897,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-24:00'
   },
   {
-    id: 'wenli-109',
+    id: 'xiaonei-109',
     name: '牛小匠·芝士牛肉抱蛋饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -3910,9 +3910,9 @@ export const restaurants: Restaurant[] = [
     cost: '19.00'
   },
   {
-    id: 'wenli-071',
+    id: 'xiaonei-071',
     name: '糯米包油条',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 5,
@@ -3925,9 +3925,9 @@ export const restaurants: Restaurant[] = [
     openTime: '15:00-24:00'
   },
   {
-    id: 'wenli-046',
+    id: 'xiaonei-046',
     name: '胖哥饺子馆',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 31,
@@ -3940,9 +3940,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:30'
   },
   {
-    id: 'wenli-033',
+    id: 'xiaonei-033',
     name: '鹏记热干面(白锦街店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -3954,9 +3954,9 @@ export const restaurants: Restaurant[] = [
     tel: '13995676681'
   },
   {
-    id: 'wenli-113',
+    id: 'xiaonei-113',
     name: '澎湖湾农家菜(东湖·楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 49,
@@ -3969,9 +3969,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'wenli-051',
+    id: 'xiaonei-051',
     name: '品味轩小碗菜(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -3984,9 +3984,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'wenli-134',
+    id: 'xiaonei-134',
     name: '奇哥襄阳牛肉面(武汉大学三环学生公寓店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -3999,9 +3999,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:00-19:00'
   },
   {
-    id: 'wenli-042',
+    id: 'xiaonei-042',
     name: '勤茁面馆(东湖新村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 7,
@@ -4012,9 +4012,9 @@ export const restaurants: Restaurant[] = [
     cost: '7.00'
   },
   {
-    id: 'wenli-070',
+    id: 'xiaonei-070',
     name: '如刚街头牛排(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -4026,9 +4026,9 @@ export const restaurants: Restaurant[] = [
     tel: '13072716856'
   },
   {
-    id: 'wenli-123',
+    id: 'xiaonei-123',
     name: '沙县小吃(东湖·楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -4041,9 +4041,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'wenli-099',
+    id: 'xiaonei-099',
     name: '狮尚帝柳州螺蛳粉(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -4056,9 +4056,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'wenli-098',
+    id: 'xiaonei-098',
     name: '食安荟(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4070,9 +4070,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:30-17:30'
   },
   {
-    id: 'wenli-100',
+    id: 'xiaonei-100',
     name: '食一锅肥牛饭(武大校内店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -4084,9 +4084,9 @@ export const restaurants: Restaurant[] = [
     tel: '15271747772'
   },
   {
-    id: 'wenli-129',
+    id: 'xiaonei-129',
     name: '天天热干面',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -4099,9 +4099,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:00'
   },
   {
-    id: 'wenli-096',
+    id: 'xiaonei-096',
     name: '铁板粉面饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -4113,9 +4113,9 @@ export const restaurants: Restaurant[] = [
     tel: '15337138596'
   },
   {
-    id: 'wenli-087',
+    id: 'xiaonei-087',
     name: '汪庆有干拌烤鸭(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4126,9 +4126,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-082',
+    id: 'xiaonei-082',
     name: '魏到杂样',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4139,9 +4139,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-083',
+    id: 'xiaonei-083',
     name: '武大擂椒木桶饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4152,9 +4152,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-119',
+    id: 'xiaonei-119',
     name: '武汉松庐凯瑞酒店(武大东湖店)·精致中餐厅',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 101,
@@ -4167,9 +4167,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-13:30 17:00-20:30'
   },
   {
-    id: 'wenli-049',
+    id: 'xiaonei-049',
     name: '鲜炖大碗牛腩饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -4180,9 +4180,9 @@ export const restaurants: Restaurant[] = [
     cost: '24.00'
   },
   {
-    id: 'wenli-076',
+    id: 'xiaonei-076',
     name: '香卤卤金牌卤肉饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -4193,9 +4193,9 @@ export const restaurants: Restaurant[] = [
     cost: '16.00'
   },
   {
-    id: 'wenli-075',
+    id: 'xiaonei-075',
     name: '香香炸串',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -4208,9 +4208,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:00-24:00'
   },
   {
-    id: 'wenli-132',
+    id: 'xiaonei-132',
     name: '小湖鲜湖北乡野土菜(八一路)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 85,
@@ -4223,9 +4223,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'wenli-084',
+    id: 'xiaonei-084',
     name: '小林家的猫',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4236,9 +4236,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-107',
+    id: 'xiaonei-107',
     name: '小石府胡同涮肉(东湖村三店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 74,
@@ -4250,9 +4250,9 @@ export const restaurants: Restaurant[] = [
     openTime: '17:00-21:30'
   },
   {
-    id: 'wenli-088',
+    id: 'xiaonei-088',
     name: '小四川农家菜',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '川菜',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -4265,9 +4265,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-15:30 16:30-23:00'
   },
   {
-    id: 'wenli-115',
+    id: 'xiaonei-115',
     name: '辛村洛概念韩餐(八一路东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '韩料',
     signatureDish: '待补充',
     avgPrice: 62,
@@ -4280,9 +4280,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:30 16:30-21:30'
   },
   {
-    id: 'wenli-101',
+    id: 'xiaonei-101',
     name: '新洲烧烤(东湖村店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -4295,9 +4295,9 @@ export const restaurants: Restaurant[] = [
     openTime: '16:30-02:00'
   },
   {
-    id: 'wenli-045',
+    id: 'xiaonei-045',
     name: '熊猫盖码饭·小碗菜(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -4310,9 +4310,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'wenli-038',
+    id: 'xiaonei-038',
     name: '徐记养生粥(武大校内可送店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -4325,9 +4325,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-18:00'
   },
   {
-    id: 'wenli-086',
+    id: 'xiaonei-086',
     name: '一品鲜小海鲜',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 40,
@@ -4340,9 +4340,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-15:00 17:00-22:00'
   },
   {
-    id: 'wenli-068',
+    id: 'xiaonei-068',
     name: '柚惑(创意融合料理)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 65,
@@ -4353,9 +4353,9 @@ export const restaurants: Restaurant[] = [
     cost: '65.00'
   },
   {
-    id: 'wenli-133',
+    id: 'xiaonei-133',
     name: '鱼虾乐私房菜·烧烤(民政厅花苑小区店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 58,
@@ -4368,9 +4368,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-24:00'
   },
   {
-    id: 'wenli-061',
+    id: 'xiaonei-061',
     name: '煜玲双喜铁板烧(东湖村总店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 55,
@@ -4383,9 +4383,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-14:00 16:30-21:00'
   },
   {
-    id: 'wenli-112',
+    id: 'xiaonei-112',
     name: '元气先锋(东湖村社区店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4397,9 +4397,9 @@ export const restaurants: Restaurant[] = [
     tel: '18971356868'
   },
   {
-    id: 'wenli-094',
+    id: 'xiaonei-094',
     name: '臻果多·榴莲披萨(梦想店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 38,
@@ -4412,9 +4412,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'wenli-085',
+    id: 'xiaonei-085',
     name: '蒸味记',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: NaN,
@@ -4425,9 +4425,9 @@ export const restaurants: Restaurant[] = [
     cost: ''
   },
   {
-    id: 'wenli-050',
+    id: 'xiaonei-050',
     name: '肘花拌饭',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 20,
@@ -4440,9 +4440,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-19:00'
   },
   {
-    id: 'wenli-029',
+    id: 'xiaonei-029',
     name: '祝芝兰手作东方茶(武大枫园食堂店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -4454,9 +4454,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'wenli-130',
+    id: 'xiaonei-130',
     name: '尊宝比萨(武大楚天府店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -4469,9 +4469,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:40'
   },
   {
-    id: 'wenli-072',
+    id: 'xiaonei-072',
     name: 'Flatmos啡行家(东湖凌波店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 36,
@@ -4484,9 +4484,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-18:00'
   },
   {
-    id: 'wenli-034',
+    id: 'xiaonei-034',
     name: 'Greenhouse(花房咖啡)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 40,
@@ -4499,9 +4499,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'wenli-001',
+    id: 'xiaonei-001',
     name: '1973继光香香鸡(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -4513,9 +4513,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:00'
   },
   {
-    id: 'wenli-002',
+    id: 'xiaonei-002',
     name: '饱嗝便当(武大梅园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 0,
@@ -4528,9 +4528,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'wenli-003',
+    id: 'xiaonei-003',
     name: '饱立来(武大梅园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -4542,9 +4542,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-20:30'
   },
   {
-    id: 'wenli-004',
+    id: 'xiaonei-004',
     name: '茶颜悦色(武汉大学梅园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -4557,9 +4557,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:00'
   },
   {
-    id: 'gongxue-005',
+    id: 'xiaonei-005',
     name: '重庆小面(弘毅大道店)',
-    streetId: 'gongxue',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -4572,9 +4572,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-21:30'
   },
   {
-    id: 'wenli-006',
+    id: 'xiaonei-006',
     name: '达美乐比萨(武汉大学枫园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 75,
@@ -4587,9 +4587,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'gongxue-007',
+    id: 'xiaonei-007',
     name: '大志小厨私房菜',
-    streetId: 'gongxue',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 52,
@@ -4602,9 +4602,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-13:30 16:30-21:00'
   },
   {
-    id: 'wenli-008',
+    id: 'xiaonei-008',
     name: '桂园餐厅(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -4617,9 +4617,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-14:00 17:00-20:00'
   },
   {
-    id: 'wenli-009',
+    id: 'xiaonei-009',
     name: '鸡柳大人(武大枫园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -4631,9 +4631,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-23:30'
   },
   {
-    id: 'wenli-010',
+    id: 'xiaonei-010',
     name: '匠心卤(武汉大学枫园食堂店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -4646,9 +4646,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-14:00 16:00-19:00'
   },
   {
-    id: 'wenli-011',
+    id: 'xiaonei-011',
     name: '京津炸鸡',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -4661,9 +4661,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'wenli-012',
+    id: 'xiaonei-012',
     name: '肯德基(武大校园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -4676,9 +4676,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-22:00'
   },
   {
-    id: 'wenli-013',
+    id: 'xiaonei-013',
     name: '库迪咖啡(武汉大学枫园CBD店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -4691,9 +4691,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:00'
   },
   {
-    id: 'wenli-014',
+    id: 'xiaonei-014',
     name: '蜜雪冰城(武汉大学枫园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -4706,9 +4706,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-23:00'
   },
   {
-    id: 'wenli-015',
+    id: 'xiaonei-015',
     name: '茉莉奶白(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -4721,9 +4721,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-22:00'
   },
   {
-    id: 'wenli-016',
+    id: 'xiaonei-016',
     name: '南北小馆',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 36,
@@ -4736,9 +4736,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-21:00'
   },
   {
-    id: 'wenli-017',
+    id: 'xiaonei-017',
     name: '瑞幸咖啡(武汉大学梅园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 13,
@@ -4751,9 +4751,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-19:00'
   },
   {
-    id: 'wenli-018',
+    id: 'xiaonei-018',
     name: '沙县小吃(武大枫园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -4764,9 +4764,9 @@ export const restaurants: Restaurant[] = [
     cost: '11.00'
   },
   {
-    id: 'wenli-019',
+    id: 'xiaonei-019',
     name: '汤师傅东北菜馆(武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 47,
@@ -4779,9 +4779,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:00 16:30-21:00'
   },
   {
-    id: 'wenli-020',
+    id: 'xiaonei-020',
     name: '土耳其烤肉拌饭(武大枫园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -4793,9 +4793,9 @@ export const restaurants: Restaurant[] = [
     tel: '17612757228'
   },
   {
-    id: 'wenli-021',
+    id: 'xiaonei-021',
     name: '武汉大学枫园食堂',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 23,
@@ -4808,9 +4808,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-21:30'
   },
   {
-    id: 'wenli-022',
+    id: 'xiaonei-022',
     name: '武汉大学梅园食堂',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 18,
@@ -4823,9 +4823,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-13:00 16:00-19:00'
   },
   {
-    id: 'wenli-023',
+    id: 'xiaonei-023',
     name: '小肆川(武大店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 34,
@@ -4838,9 +4838,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-20:00'
   },
   {
-    id: 'wenli-024',
+    id: 'xiaonei-024',
     name: '氧气层(武大梅园店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 46,
@@ -4853,9 +4853,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-20:30'
   },
   {
-    id: 'wenli-025',
+    id: 'xiaonei-025',
     name: '鱼你在一起(武汉大学店 )',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 31,
@@ -4867,9 +4867,9 @@ export const restaurants: Restaurant[] = [
     tel: '13915720646'
   },
   {
-    id: 'wenli-026',
+    id: 'xiaonei-026',
     name: '周麻婆·川式小炒(湖北武汉大学店)',
-    streetId: 'wenli',
+    streetId: 'xiaonei',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 40,
@@ -4882,9 +4882,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-14:00 16:00-21:30'
   },
   {
-    id: 'gongxue-027',
+    id: 'xiaonei-027',
     name: 'WHU1893 by UNILAB',
-    streetId: 'gongxue',
+    streetId: 'xiaonei',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 33,
@@ -4895,145 +4895,11 @@ export const restaurants: Restaurant[] = [
     cost: '33.00',
     tel: '15392826081'
   },
-  // ============================================================
-  // 工学部（新获取 9 家）
-  // ============================================================
-  {
-    id: 'gongxue-028',
-    name: '谭小嗨·热卤牛骨火锅鸡(武汉大学珞珈山店)',
-    streetId: 'gongxue',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: 41,
-    description: '待补充',
-    latLng: [30.542675, 114.359225],
-    tags: ["待补充"],
-    rating: '0.9',
-    cost: '41.00'
-  },
-  {
-    id: 'gongxue-029',
-    name: '皇冠幸福里(武大工学部店)',
-    streetId: 'gongxue',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 27,
-    description: '待补充',
-    latLng: [30.540320, 114.357616],
-    tags: ["待补充"],
-    rating: '4.1',
-    cost: '27.00',
-    tel: '027-68774226',
-    openTime: '08:00-22:00'
-  },
-  {
-    id: 'gongxue-030',
-    name: '蜜雪冰城(武大工学部田园店)',
-    streetId: 'gongxue',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 9,
-    description: '待补充',
-    latLng: [30.542127, 114.357696],
-    tags: ["待补充"],
-    rating: '3.7',
-    cost: '9.00',
-    tel: '13659848901',
-    openTime: '09:00-22:30'
-  },
-  {
-    id: 'gongxue-031',
-    name: '农家小炒',
-    streetId: 'gongxue',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: 41,
-    description: '待补充',
-    latLng: [30.541601, 114.357431],
-    tags: ["待补充"],
-    rating: '3.3',
-    cost: '41.00',
-    tel: '15392840149',
-    openTime: '09:30-22:00'
-  },
-  {
-    id: 'gongxue-032',
-    name: '欢喜水果捞',
-    streetId: 'gongxue',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.542764, 114.357969],
-    tags: ["待补充"],
-    rating: '3.7',
-    cost: '',
-    tel: '15717158764',
-    openTime: '10:00-22:00'
-  },
-  {
-    id: 'gongxue-033',
-    name: '武大第一炒酸奶店',
-    streetId: 'gongxue',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 17,
-    description: '待补充',
-    latLng: [30.540573, 114.357060],
-    tags: ["待补充"],
-    rating: '4.3',
-    cost: '17.00',
-    tel: '18971095513;18971175256',
-    openTime: '10:00-22:30'
-  },
-  {
-    id: 'gongxue-034',
-    name: '恩施炕小土豆(武大店)',
-    streetId: 'gongxue',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: 11,
-    description: '待补充',
-    latLng: [30.540275, 114.357025],
-    tags: ["待补充"],
-    rating: '1.1',
-    cost: '11.00',
-    tel: '13098866368;15623478968',
-    openTime: '10:30-23:00'
-  },
-  {
-    id: 'gongxue-035',
-    name: '不颠哥港式甜品店(武汉大学店)',
-    streetId: 'gongxue',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 22,
-    description: '待补充',
-    latLng: [30.540303, 114.357014],
-    tags: ["待补充"],
-    rating: '3.8',
-    cost: '22.00',
-    tel: '18767912041',
-    openTime: '12:00-24:00'
-  },
-  {
-    id: 'gongxue-036',
-    name: '丫滋味卤味铺子(武大校内店)',
-    streetId: 'gongxue',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.540375, 114.356975],
-    tags: ["待补充"],
-    rating: '0.3',
-    cost: ''
-  },
 
   {
-    id: 'weilai-001',
+    id: 'weilaicheng-001',
     name: '巴比馒头(武大店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -5046,9 +4912,9 @@ export const restaurants: Restaurant[] = [
     openTime: '05:00-19:00'
   },
   {
-    id: 'weilai-029',
+    id: 'weilaicheng-029',
     name: '潮汕鲜牛肉粿条',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 26,
@@ -5061,9 +4927,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:15-22:00'
   },
   {
-    id: 'weilai-027',
+    id: 'weilaicheng-027',
     name: '广八路巴尔郎鸡公煲',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 29,
@@ -5076,9 +4942,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:15'
   },
   {
-    id: 'weilai-036',
+    id: 'weilaicheng-036',
     name: '翰妈火锅',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '火锅',
     signatureDish: '待补充',
     avgPrice: 57,
@@ -5091,9 +4957,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:30-14:00 16:30-23:30'
   },
   {
-    id: 'weilai-034',
+    id: 'weilaicheng-034',
     name: '黑龙江饺子馆(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 26,
@@ -5106,9 +4972,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'weilai-030',
+    id: 'weilaicheng-030',
     name: '黄小渝干锅锅',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 32,
@@ -5121,9 +4987,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'weilai-007',
+    id: 'weilaicheng-007',
     name: '鸡公子御膳叉骨炸鸡(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -5136,9 +5002,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-22:00'
   },
   {
-    id: 'weilai-015',
+    id: 'weilaicheng-015',
     name: '晋南世家油泼面肉夹馍凉皮(广埠屯店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 11,
@@ -5150,9 +5016,9 @@ export const restaurants: Restaurant[] = [
     tel: '18986884227'
   },
   {
-    id: 'weilai-024',
+    id: 'weilaicheng-024',
     name: '口道堂淮南牛肉汤(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -5165,9 +5031,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-23:00'
   },
   {
-    id: 'weilai-025',
+    id: 'weilaicheng-025',
     name: '库迪咖啡(武汉大学信息学部店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '甜品饮品',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -5180,9 +5046,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:00'
   },
   {
-    id: 'weilai-035',
+    id: 'weilaicheng-035',
     name: '老韩煸鸡·中国炸鸡(广埠屯店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 42,
@@ -5195,9 +5061,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'weilai-005',
+    id: 'weilaicheng-005',
     name: '老汉口汽水包(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 5,
@@ -5210,9 +5076,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:00-20:00'
   },
   {
-    id: 'weilai-020',
+    id: 'weilaicheng-020',
     name: '李师傅香辣牛肉面(街道口店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -5225,9 +5091,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-22:30'
   },
   {
-    id: 'weilai-012',
+    id: 'weilaicheng-012',
     name: '李友不大盘鸡饭庄(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 35,
@@ -5240,9 +5106,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'weilai-038',
+    id: 'weilaicheng-038',
     name: '柳州肥姨妈大骨螺蛳粉(广埠屯店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -5255,9 +5121,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'weilai-011',
+    id: 'weilaicheng-011',
     name: '马氏现卤鸭脖(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 30,
@@ -5270,9 +5136,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-23:45'
   },
   {
-    id: 'weilai-031',
+    id: 'weilaicheng-031',
     name: '南京鸭血粉丝汤(广埠屯店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 10,
@@ -5285,9 +5151,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'weilai-008',
+    id: 'weilaicheng-008',
     name: '糯米包油条(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 14,
@@ -5300,9 +5166,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-20:30'
   },
   {
-    id: 'weilai-018',
+    id: 'weilaicheng-018',
     name: '胖子煎饼(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -5315,9 +5181,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:30'
   },
   {
-    id: 'weilai-028',
+    id: 'weilaicheng-028',
     name: '邱小鸭衢州鸭头(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 32,
@@ -5330,9 +5196,9 @@ export const restaurants: Restaurant[] = [
     openTime: '00:00-02:00 11:00-24:00'
   },
   {
-    id: 'weilai-023',
+    id: 'weilaicheng-023',
     name: '三十六味牛骨面',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -5344,9 +5210,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-21:00'
   },
   {
-    id: 'weilai-022',
+    id: 'weilaicheng-022',
     name: '沙县小吃(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -5359,9 +5225,9 @@ export const restaurants: Restaurant[] = [
     openTime: '08:00-22:30'
   },
   {
-    id: 'weilai-004',
+    id: 'weilaicheng-004',
     name: '舌尖大师铁板锅(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 36,
@@ -5374,9 +5240,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-22:30'
   },
   {
-    id: 'weilai-013',
+    id: 'weilaicheng-013',
     name: '王记三鲜豆皮',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 9,
@@ -5388,9 +5254,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:30-14:00 17:00-21:00'
   },
   {
-    id: 'weilai-016',
+    id: 'weilaicheng-016',
     name: '味美香豆皮',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -5403,9 +5269,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-13:30'
   },
   {
-    id: 'weilai-021',
+    id: 'weilaicheng-021',
     name: '武汉大学信息学部学生三食堂',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 15,
@@ -5416,9 +5282,9 @@ export const restaurants: Restaurant[] = [
     cost: '15.00'
   },
   {
-    id: 'weilai-026',
+    id: 'weilaicheng-026',
     name: '武汉大学信息学部学生四食堂',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 17,
@@ -5431,9 +5297,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-08:30 11:00-12:30 17:00-18:30'
   },
   {
-    id: 'weilai-010',
+    id: 'weilaicheng-010',
     name: '香酥鸡蛋灌饼',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 10,
@@ -5446,9 +5312,9 @@ export const restaurants: Restaurant[] = [
     openTime: '07:00-24:00'
   },
   {
-    id: 'weilai-033',
+    id: 'weilaicheng-033',
     name: '湘处之稻(广埠屯店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 21,
@@ -5461,9 +5327,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:30-21:00'
   },
   {
-    id: 'weilai-017',
+    id: 'weilaicheng-017',
     name: '欣欣餐厅(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 55,
@@ -5476,9 +5342,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:00-14:30 16:30-21:00'
   },
   {
-    id: 'weilai-014',
+    id: 'weilaicheng-014',
     name: '杨记干拌烤鸭烤鸡(武汉总店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 25,
@@ -5491,9 +5357,9 @@ export const restaurants: Restaurant[] = [
     openTime: '09:30-21:00'
   },
   {
-    id: 'weilai-009',
+    id: 'weilaicheng-009',
     name: '一品豆花(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 12,
@@ -5506,9 +5372,9 @@ export const restaurants: Restaurant[] = [
     openTime: '10:00-22:00'
   },
   {
-    id: 'weilai-003',
+    id: 'weilaicheng-003',
     name: '一桥头襄阳面馆(广八路直营店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '小吃',
     signatureDish: '待补充',
     avgPrice: 19,
@@ -5521,9 +5387,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'weilai-032',
+    id: 'weilaicheng-032',
     name: '永利妍农家菜(广八路店)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 50,
@@ -5536,9 +5402,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-14:30 17:00-21:00'
   },
   {
-    id: 'weilai-006',
+    id: 'weilaicheng-006',
     name: '鱿鱼埠绝',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -5551,9 +5417,9 @@ export const restaurants: Restaurant[] = [
     openTime: '11:00-01:00'
   },
   {
-    id: 'weilai-002',
+    id: 'weilaicheng-002',
     name: '原汤牛肉粉',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 16,
@@ -5566,9 +5432,9 @@ export const restaurants: Restaurant[] = [
     openTime: '06:30-19:30'
   },
   {
-    id: 'weilai-037',
+    id: 'weilaicheng-037',
     name: '郑恩强麻辣烫(武汉电脑大世界店)(暂停营业)',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '中餐',
     signatureDish: '待补充',
     avgPrice: 24,
@@ -5581,9 +5447,9 @@ export const restaurants: Restaurant[] = [
     openTime: '24小时营业'
   },
   {
-    id: 'weilai-019',
+    id: 'weilaicheng-019',
     name: 'Chibao吃堡汉堡店',
-    streetId: 'weilai',
+    streetId: 'weilaicheng',
     cuisine: '快餐',
     signatureDish: '待补充',
     avgPrice: 27,
@@ -5594,318 +5460,4 @@ export const restaurants: Restaurant[] = [
     cost: '27.00',
     tel: '15994200039',
     openTime: '10:00-21:00'
-  },
-  // ============================================================
-  // 信息学部（新获取 22 家）
-  // ============================================================
-  {
-    id: 'xinxi-001',
-    name: '胖大富蒜香排骨(武大珞珈门店)',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 20,
-    description: '待补充',
-    latLng: [30.531419, 114.355606],
-    tags: ["待补充"],
-    rating: '3.9',
-    cost: '20.00',
-    tel: '13125184569',
-    openTime: '11:00-23:30'
-  },
-  {
-    id: 'xinxi-002',
-    name: '山妖糖水铺',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 15,
-    description: '待补充',
-    latLng: [30.531578, 114.355770],
-    tags: ["待补充"],
-    rating: '3.5',
-    cost: '15.00',
-    openTime: '12:00-20:00'
-  },
-  {
-    id: 'xinxi-003',
-    name: '1点点(武汉大学正门店)',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 14,
-    description: '待补充',
-    latLng: [30.531582, 114.355819],
-    tags: ["待补充"],
-    rating: '4.4',
-    cost: '14.00',
-    tel: '027-87104519',
-    openTime: '07:00-08:00'
-  },
-  {
-    id: 'xinxi-004',
-    name: '长沙牛肉粉面馆',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.531175, 114.354609],
-    tags: ["待补充"],
-    rating: '3.1',
-    cost: ''
-  },
-  {
-    id: 'xinxi-005',
-    name: '桂林米粉(珞狮路店)',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: 18,
-    description: '待补充',
-    latLng: [30.531154, 114.355387],
-    tags: ["待补充"],
-    rating: '4.0',
-    cost: '18.00',
-    tel: '17786465386;18672379598',
-    openTime: '24小时营业'
-  },
-  {
-    id: 'xinxi-006',
-    name: '和善园(珞狮路辅路店)',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 9,
-    description: '待补充',
-    latLng: [30.531153, 114.355394],
-    tags: ["待补充"],
-    rating: '3.3',
-    cost: '9.00',
-    tel: '15317515834;15926215690'
-  },
-  {
-    id: 'xinxi-007',
-    name: 'Moon Wave',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 679,
-    description: '待补充',
-    latLng: [30.531100, 114.355375],
-    tags: ["待补充"],
-    rating: '4.5',
-    cost: '679.00'
-  },
-  {
-    id: 'xinxi-008',
-    name: '千层饼屋(珞狮北路店)',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 7,
-    description: '待补充',
-    latLng: [30.531081, 114.355423],
-    tags: ["待补充"],
-    rating: '3.0',
-    cost: '7.00',
-    openTime: '07:00-20:00'
-  },
-  {
-    id: 'xinxi-009',
-    name: '和小猿和州酱香饼',
-    streetId: 'xinxi',
-    cuisine: '快餐',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.531052, 114.355394],
-    tags: ["待补充"],
-    rating: '2.6',
-    cost: ''
-  },
-  {
-    id: 'xinxi-010',
-    name: '疆与兰西域美食',
-    streetId: 'xinxi',
-    cuisine: '新疆菜',
-    signatureDish: '待补充',
-    avgPrice: 43,
-    description: '待补充',
-    latLng: [30.532101, 114.356578],
-    tags: ["待补充"],
-    rating: '3.9',
-    cost: '43.00'
-  },
-  {
-    id: 'xinxi-011',
-    name: '新疆阿穆烧烤(街道口店)',
-    streetId: 'xinxi',
-    cuisine: '新疆菜',
-    signatureDish: '待补充',
-    avgPrice: 57,
-    description: '待补充',
-    latLng: [30.530604, 114.354239],
-    tags: ["待补充"],
-    rating: '4.2',
-    cost: '57.00',
-    openTime: '17:30-02:30'
-  },
-  {
-    id: 'xinxi-012',
-    name: 'NOWWA挪瓦咖啡(Today武汉洪山武汉大学店)',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 12,
-    description: '待补充',
-    latLng: [30.532523, 114.356702],
-    tags: ["待补充"],
-    rating: '3.8',
-    cost: '12.00',
-    tel: '17671719041',
-    openTime: '24小时营业'
-  },
-  {
-    id: 'xinxi-013',
-    name: '豚门TAPROOM',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.530569, 114.354269],
-    tags: ["待补充"],
-    rating: '4.0',
-    cost: '',
-    openTime: '18:00-02:00'
-  },
-  {
-    id: 'xinxi-014',
-    name: '秋章白酒馆子',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.530565, 114.354214],
-    tags: ["待补充"],
-    rating: '4.1',
-    cost: '',
-    tel: '17786389414',
-    openTime: '11:00-24:00'
-  },
-  {
-    id: 'xinxi-015',
-    name: '御品片皮鸭(武大店)',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 30,
-    description: '待补充',
-    latLng: [30.532262, 114.356829],
-    tags: ["待补充"],
-    rating: '3.4',
-    cost: '30.00',
-    tel: '13986158186;18558906166',
-    openTime: '09:00-22:00'
-  },
-  {
-    id: 'xinxi-016',
-    name: '黑布木木咖啡',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 48,
-    description: '待补充',
-    latLng: [30.530533, 114.354177],
-    tags: ["待补充"],
-    rating: '4.1',
-    cost: '48.00',
-    tel: '18171507225',
-    openTime: '10:00-18:00'
-  },
-  {
-    id: 'xinxi-017',
-    name: '劝业场·丰味食堂(珞珈国际·劝业场店)',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: 21,
-    description: '待补充',
-    latLng: [30.530793, 114.353693],
-    tags: ["待补充"],
-    rating: '3.5',
-    cost: '21.00',
-    openTime: '10:00-18:00'
-  },
-  {
-    id: 'xinxi-018',
-    name: '肯悦咖啡(新武大店)',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 25,
-    description: '待补充',
-    latLng: [30.532800, 114.356788],
-    tags: ["待补充"],
-    rating: '3.6',
-    cost: '25.00'
-  },
-  {
-    id: 'xinxi-019',
-    name: '魔旦美食城',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.533025, 114.356675],
-    tags: ["待补充"],
-    rating: '3.4',
-    cost: ''
-  },
-  {
-    id: 'xinxi-020',
-    name: '星巴克咖啡(武汉大学店)',
-    streetId: 'xinxi',
-    cuisine: '甜品饮品',
-    signatureDish: '待补充',
-    avgPrice: 30,
-    description: '待补充',
-    latLng: [30.533266, 114.356480],
-    tags: ["待补充"],
-    rating: '4.6',
-    cost: '30.00',
-    tel: '027-82843395',
-    openTime: '07:00-19:00'
-  },
-  {
-    id: 'xinxi-021',
-    name: '恩施臊子面',
-    streetId: 'xinxi',
-    cuisine: '中餐',
-    signatureDish: '待补充',
-    avgPrice: NaN,
-    description: '待补充',
-    latLng: [30.530693, 114.353542],
-    tags: ["待补充"],
-    rating: '2.8',
-    cost: '',
-    tel: '15571828628;15629819746'
-  },
-  {
-    id: 'xinxi-022',
-    name: '周黑鸭(武大店)',
-    streetId: 'xinxi',
-    cuisine: '小吃',
-    signatureDish: '待补充',
-    avgPrice: 30,
-    description: '待补充',
-    latLng: [30.532356, 114.357094],
-    tags: ["待补充"],
-    rating: '4.4',
-    cost: '30.00',
-    tel: '15527638665',
-    openTime: '09:00-21:00'
   },];
