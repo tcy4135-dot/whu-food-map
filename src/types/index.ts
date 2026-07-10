@@ -41,6 +41,14 @@ export interface Restaurant {
   description: string;
   latLng: [number, number];
   tags?: string[];
+  /** 高德评分 (如 "4.5") */
+  rating?: string;
+  /** 人均消费 (如 "25.00") */
+  cost?: string;
+  /** 联系电话 */
+  tel?: string;
+  /** 营业时间 (如 "08:00-22:00") */
+  openTime?: string;
 }
 
 // ===== 筛选状态 =====

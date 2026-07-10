@@ -15,9 +15,9 @@
       "Bash(git remote *)",
       "Bash(git branch *)",
       "Bash(git push *)",
-      "Bash(node fetchFoodData.cjs)",
-      "Bash(node -e ' *)",
-      "Bash(node convertFoodData.cjs)"
+      "Bash(node fetchAllFoodData.cjs)",
+      "Bash(node mergeFoodData.cjs)",
+      "Bash(node -e *)"
     ]
   }
 }
